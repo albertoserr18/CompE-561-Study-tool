@@ -1,5 +1,6 @@
-<<<<<<< HEAD
 # COMPE 561 Final Study App
+
+Help Study for 561 Final
 
 A modern, interactive study application built with Next.js to help you prepare for your COMPE 561 final exam.
 

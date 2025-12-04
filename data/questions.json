@@ -1,0 +1,2072 @@
+[
+  {
+    "id": 1,
+    "question": "What does HTML stand for?\nA. Hyper Text Markup Language\nB. Home Tool Markup Language\nC. Hyperlinks and Text Markup Language",
+    "answer": "A. Hyper Text Markup Language - HTML stands for Hyper Text Markup Language, which is the standard markup language for creating web pages.",
+    "category": "HTML"
+  },
+  {
+    "id": 2,
+    "question": "Who is making the Web standards?\nA. Microsoft\nB. Mozilla\nC. Google\nD. The World Wide Web Consortium",
+    "answer": "D. The World Wide Web Consortium (W3C) - The W3C is the international organization that develops web standards.",
+    "category": "HTML"
+  },
+  {
+    "id": 3,
+    "question": "Correct HTML element for the largest heading:\nA. <head>\nB. <h1>\nC. <h6>\nD. <heading>",
+    "answer": "B. <h1> - The <h1> element is used for the largest heading, while <h6> is the smallest.",
+    "category": "HTML"
+  },
+  {
+    "id": 4,
+    "question": "Correct HTML element for a line break:\nA. <break>\nB. <lb>\nC. <br>",
+    "answer": "C. <br> - The <br> element is a self-closing tag used to create a line break in HTML.",
+    "category": "HTML"
+  },
+  {
+    "id": 5,
+    "question": "Correct HTML for adding a background color:\nA. <background>yellow</background>\nB. <body style=\"background-color:yellow;\">\nC. <body bg=\"yellow\">",
+    "answer": "B. <body style=\"background-color:yellow;\"> - Using inline CSS with the style attribute is the correct modern approach. The bg attribute is deprecated.",
+    "category": "HTML"
+  },
+  {
+    "id": 6,
+    "question": "HTML element to define important text:\nA. <i>\nB. <strong>\nC. <b>\nD. <important>",
+    "answer": "B. <strong> - The <strong> element is used to indicate that its contents have strong importance, seriousness, or urgency.",
+    "category": "HTML"
+  },
+  {
+    "id": 7,
+    "question": "HTML element for emphasized text:\nA. <em>\nB. <italic>\nC. <i>",
+    "answer": "A. <em> - The <em> element marks text that has stress emphasis. The <i> element is for italicized text without semantic meaning.",
+    "category": "HTML"
+  },
+  {
+    "id": 8,
+    "question": "Correct HTML for creating a hyperlink:\nA. <a>http://www.w3schools.com</a>\nB. <a url=\"http://www.w3schools.com\">W3Schools.com</a>\nC. <a href=\"http://www.w3schools.com\">W3Schools</a>\nD. <a name=\"http://www.w3schools.com\">W3Schools.com</a>",
+    "answer": "C. <a href=\"http://www.w3schools.com\">W3Schools</a> - The href attribute specifies the URL of the page the link goes to.",
+    "category": "HTML"
+  },
+  {
+    "id": 9,
+    "question": "Which character indicates an end tag?\nA. *\nB. /\nC. ^\nD. <",
+    "answer": "B. / - The forward slash (/) character indicates an end tag in HTML, for example </div>.",
+    "category": "HTML"
+  },
+  {
+    "id": 10,
+    "question": "Open a link in a new tab?\nA. <a href=\"url\" target=\"new\">\nB. <a href=\"url\" target=\"_blank\">\nC. <a href=\"url\" new>",
+    "answer": "B. <a href=\"url\" target=\"_blank\"> - The target=\"_blank\" attribute opens the link in a new tab or window.",
+    "category": "HTML"
+  },
+  {
+    "id": 11,
+    "question": "Which are all <table> elements?\nA. <table><tr><td>\nB. <table><tr><tt>\nC. <thead><body><tr>\nD. <table><head><tfoot>",
+    "answer": "A. <table><tr><td> - <table> creates the table, <tr> creates a table row, and <td> creates a table data cell.",
+    "category": "HTML"
+  },
+  {
+    "id": 12,
+    "question": "Inline elements start on a new line?\nA. True\nB. False",
+    "answer": "B. False - Inline elements do NOT start on a new line. They only take up as much width as necessary. Block elements start on a new line.",
+    "category": "HTML"
+  },
+  {
+    "id": 13,
+    "question": "How to make a numbered list?\nA. <list>\nB. <ul>\nC. <ol>\nD. <dl>",
+    "answer": "C. <ol> - The <ol> (ordered list) element creates a numbered list. <ul> creates a bulleted list.",
+    "category": "HTML"
+  },
+  {
+    "id": 14,
+    "question": "How to make a bulleted list?\nA. <ol>\nB. <dl>\nC. <list>\nD. <ul>",
+    "answer": "D. <ul> - The <ul> (unordered list) element creates a bulleted list.",
+    "category": "HTML"
+  },
+  {
+    "id": 15,
+    "question": "Correct HTML for a checkbox:\nA. <input type=\"checkbox\">\nB. <check>\nC. <input type=\"check\">\nD. <checkbox>",
+    "answer": "A. <input type=\"checkbox\"> - The input element with type=\"checkbox\" creates a checkbox.",
+    "category": "HTML"
+  },
+  {
+    "id": 16,
+    "question": "Correct HTML for a text input field:\nA. <textinput type=\"text\">\nB. <input type=\"textfield\">\nC. <textfield>\nD. <input type=\"text\">",
+    "answer": "D. <input type=\"text\"> - The input element with type=\"text\" creates a single-line text input field.",
+    "category": "HTML"
+  },
+  {
+    "id": 17,
+    "question": "Correct HTML for a drop-down list:\nA. <input type=\"dropdown\">\nB. <list>\nC. <select>\nD. <input type=\"list\">",
+    "answer": "C. <select> - The <select> element creates a drop-down list. It contains <option> elements for each choice.",
+    "category": "HTML"
+  },
+  {
+    "id": 18,
+    "question": "Correct HTML for a text area:\nA. <input type=\"textbox\">\nB. <input type=\"textarea\">\nC. <textarea>",
+    "answer": "C. <textarea> - The <textarea> element creates a multi-line text input control.",
+    "category": "HTML"
+  },
+  {
+    "id": 19,
+    "question": "Correct HTML for inserting an image:\nA. <img alt=\"MyImage\">image.gif</img>\nB. <img src=\"image.gif\" alt=\"MyImage\">\nC. <img href=\"image.gif\" alt=\"MyImage\">\nD. <image src=\"image.gif\" alt=\"MyImage\">",
+    "answer": "B. <img src=\"image.gif\" alt=\"MyImage\"> - The <img> element uses the src attribute for the image source and alt for alternative text. It's a self-closing tag.",
+    "category": "HTML"
+  },
+  {
+    "id": 20,
+    "question": "Correct HTML for a background image:\nA. <body style=\"background-image:url(background.gif)\">\nB. <body bg=\"background.gif\">\nC. <background img=\"background.gif\">",
+    "answer": "A. <body style=\"background-image:url(background.gif)\"> - Using inline CSS with background-image is the correct modern approach. The bg attribute is deprecated.",
+    "category": "HTML"
+  },
+  {
+    "id": 21,
+    "question": "An <iframe> is used to display a webpage within a webpage.\nA. True\nB. False\nC. There is no such thing as <iframe>",
+    "answer": "A. True - The <iframe> (inline frame) element embeds another HTML page within the current page.",
+    "category": "HTML"
+  },
+  {
+    "id": 22,
+    "question": "HTML comments start with <!-- and end with -->\nA. True\nB. False",
+    "answer": "A. True - HTML comments use <!-- to start and --> to end. Comments are not displayed in the browser.",
+    "category": "HTML"
+  },
+  {
+    "id": 23,
+    "question": "Block elements are normally displayed without starting a new line.\nA. True\nB. False",
+    "answer": "B. False - Block elements DO start on a new line and take up the full width available. Inline elements don't start on a new line.",
+    "category": "HTML"
+  },
+  {
+    "id": 24,
+    "question": "Which element defines the title of a document?\nA. <head>\nB. <title>\nC. <meta>",
+    "answer": "B. <title> - The <title> element defines the title of the document, which appears in the browser's title bar or tab.",
+    "category": "HTML"
+  },
+  {
+    "id": 25,
+    "question": "Which attribute specifies alternate text for an image?\nA. alt\nB. longdesc\nC. src\nD. title",
+    "answer": "A. alt - The alt attribute provides alternative text for an image, used by screen readers and when the image cannot be displayed.",
+    "category": "HTML"
+  },
+  {
+    "id": 26,
+    "question": "Correct doctype for HTML5:\nA. Long W3C doctype\nB. <!DOCTYPE HTML5>\nC. <!DOCTYPE html>",
+    "answer": "C. <!DOCTYPE html> - HTML5 uses the simple <!DOCTYPE html> declaration, which is case-insensitive.",
+    "category": "HTML"
+  },
+  {
+    "id": 27,
+    "question": "Which element specifies a footer?\nA. <footer>\nB. <bottom>\nC. <section>",
+    "answer": "A. <footer> - The <footer> element represents a footer for its nearest sectioning content or sectioning root element.",
+    "category": "HTML"
+  },
+  {
+    "id": 28,
+    "question": "Can you embed SVG into HTML?\nA. True\nB. False",
+    "answer": "A. True - SVG (Scalable Vector Graphics) can be embedded directly into HTML using the <svg> element or as an external file.",
+    "category": "HTML"
+  },
+  {
+    "id": 29,
+    "question": "Correct element for video:\nA. <movie>\nB. <video>\nC. <media>",
+    "answer": "B. <video> - The <video> element is used to embed video content in an HTML document.",
+    "category": "HTML"
+  },
+  {
+    "id": 30,
+    "question": "Correct element for audio:\nA. <audio>\nB. <mp3>\nC. <sound>",
+    "answer": "A. <audio> - The <audio> element is used to embed sound content in an HTML document.",
+    "category": "HTML"
+  },
+  {
+    "id": 31,
+    "question": "What is contenteditable used for?\nA. Defines context menu\nB. Updates content from server\nC. Finds content in strings\nD. Makes content editable",
+    "answer": "D. Makes content editable - The contenteditable attribute makes an element's content editable by the user.",
+    "category": "HTML"
+  },
+  {
+    "id": 32,
+    "question": "onblur and onfocus are:\nA. HTML elements\nB. Style attributes\nC. Event attributes",
+    "answer": "C. Event attributes - onblur and onfocus are event attributes that trigger JavaScript when an element loses or gains focus.",
+    "category": "HTML"
+  },
+  {
+    "id": 33,
+    "question": "SVG graphics are in what format?\nA. XML\nB. HTML\nC. CSS",
+    "answer": "A. XML - SVG (Scalable Vector Graphics) is an XML-based vector image format.",
+    "category": "HTML"
+  },
+  {
+    "id": 34,
+    "question": "The <canvas> element is used to:\nA. Display database records\nB. Manipulate MySQL data\nC. Create draggable elements\nD. Draw graphics",
+    "answer": "D. Draw graphics - The <canvas> element is used to draw graphics via JavaScript, such as charts, games, or animations.",
+    "category": "HTML"
+  },
+  {
+    "id": 35,
+    "question": "Attribute that requires an input field:\nA. placeholder\nB. validate\nC. formvalidate\nD. required",
+    "answer": "D. required - The required attribute specifies that an input field must be filled out before submitting the form.",
+    "category": "HTML"
+  },
+  {
+    "id": 36,
+    "question": "Input type for a slider:\nA. slider\nB. range\nC. search\nD. controls",
+    "answer": "B. range - The input type=\"range\" creates a slider control for selecting a numeric value within a range.",
+    "category": "HTML"
+  },
+  {
+    "id": 37,
+    "question": "HTML element for scalar measurement:\nA. <gauge>\nB. <measure>\nC. <range>\nD. <meter>",
+    "answer": "D. <meter> - The <meter> element represents a scalar measurement within a known range, like disk usage or a score.",
+    "category": "HTML"
+  },
+  {
+    "id": 38,
+    "question": "Element that defines navigation links:\nA. <navigate>\nB. <nav>\nC. <navigation>",
+    "answer": "B. <nav> - The <nav> element represents a section of a page whose purpose is to provide navigation links.",
+    "category": "HTML"
+  },
+  {
+    "id": 39,
+    "question": "What does <aside> define?\nA. ASCII character set\nB. Left-side navigation\nC. Content aside from main content",
+    "answer": "C. Content aside from main content - The <aside> element represents a portion of a document whose content is only indirectly related to the main content.",
+    "category": "HTML"
+  },
+  {
+    "id": 40,
+    "question": "Element that defines a header:\nA. <header>\nB. <head>\nC. <section>\nD. <top>",
+    "answer": "A. <header> - The <header> element represents introductory content, typically a group of introductory or navigational aids.",
+    "category": "HTML"
+  },
+  {
+    "id": 41,
+    "question": "What does CSS stand for?\nA. Cascading Style Sheets\nB. Computer Style Sheets\nC. Colorful Style Sheets\nD. Creative Style Sheets",
+    "answer": "A. Cascading Style Sheets - CSS stands for Cascading Style Sheets, which is used to style and layout web pages.",
+    "category": "CSS"
+  },
+  {
+    "id": 42,
+    "question": "What is the correct HTML for referring to an external style sheet?\nA. <link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">\nB. <style src=\"mystyle.css\">\nC. <stylesheet>mystyle.css</stylesheet>",
+    "answer": "A. <link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\"> - The <link> element with rel=\"stylesheet\" is used to link external CSS files.",
+    "category": "CSS"
+  },
+  {
+    "id": 43,
+    "question": "Where in an HTML document is the correct place to refer to an external style sheet?\nA. In the <body> section\nB. At the end of the document\nC. In the <head> section",
+    "answer": "C. In the <head> section - External style sheets should be referenced in the <head> section of the HTML document for proper loading order.",
+    "category": "CSS"
+  },
+  {
+    "id": 44,
+    "question": "Which HTML tag is used to define an internal style sheet?\nA. <style>\nB. <css>\nC. <script>",
+    "answer": "A. <style> - The <style> tag is used to define internal (embedded) CSS styles within an HTML document.",
+    "category": "CSS"
+  },
+  {
+    "id": 45,
+    "question": "Which HTML attribute is used to define inline styles?\nA. font\nB. class\nC. styles\nD. style",
+    "answer": "D. style - The style attribute is used to apply inline CSS styles directly to an HTML element.",
+    "category": "CSS"
+  },
+  {
+    "id": 46,
+    "question": "Which is the correct CSS syntax?\nA. body:color=black;\nB. body {color: black;}\nC. {body:color=black;}\nD. {body;color:black;}",
+    "answer": "B. body {color: black;} - CSS syntax uses selectors followed by curly braces containing property-value pairs separated by colons.",
+    "category": "CSS"
+  },
+  {
+    "id": 47,
+    "question": "How do you insert a comment in a CSS file?\nA. // this is a comment\nB. /* this is a comment */\nC. // this is a comment //\nD. ' this is a comment",
+    "answer": "B. /* this is a comment */ - CSS comments use /* to start and */ to end. They can span multiple lines.",
+    "category": "CSS"
+  },
+  {
+    "id": 48,
+    "question": "Which property is used to change the background color?\nA. bgcolor\nB. background-color\nC. color",
+    "answer": "B. background-color - The background-color property sets the background color of an element. The color property changes text color.",
+    "category": "CSS"
+  },
+  {
+    "id": 49,
+    "question": "How do you add a background color for all <h1> elements?\nA. h1.all {background-color:#FFFFFF;}\nB. all.h1 {background-color:#FFFFFF;}\nC. h1 {background-color:#FFFFFF;}",
+    "answer": "C. h1 {background-color:#FFFFFF;} - To style all elements of a type, use the element selector directly without any additional qualifiers.",
+    "category": "CSS"
+  },
+  {
+    "id": 50,
+    "question": "Which CSS property changes the text color?\nA. text-color\nB. color\nC. fgcolor",
+    "answer": "B. color - The color property sets the foreground color (text color) of an element.",
+    "category": "CSS"
+  },
+  {
+    "id": 51,
+    "question": "Which CSS property controls the text size?\nA. font-size\nB. font-style\nC. text-size\nD. text-style",
+    "answer": "A. font-size - The font-size property controls the size of the text. font-style controls italic/oblique, not size.",
+    "category": "CSS"
+  },
+  {
+    "id": 52,
+    "question": "Correct CSS syntax for making all <p> elements bold:\nA. <p style=\"text-size:bold;\">\nB. p {text-size:bold;}\nC. p {font-weight:bold;}\nD. <p style=\"font-size:bold;\">",
+    "answer": "C. p {font-weight:bold;} - The font-weight property with value bold makes text bold. This is the correct CSS syntax for styling all <p> elements.",
+    "category": "CSS"
+  },
+  {
+    "id": 53,
+    "question": "How do you display hyperlinks without an underline?\nA. a {text-decoration:no-underline;}\nB. a {text-decoration:none;}\nC. a {decoration:no-underline;}\nD. a {underline:none;}",
+    "answer": "B. a {text-decoration:none;} - The text-decoration property with value none removes underlines and other text decorations.",
+    "category": "CSS"
+  },
+  {
+    "id": 54,
+    "question": "How do you make each word start with a capital letter?\nA. text-style:capitalize\nB. transform:capitalize\nC. text-transform:capitalize\nD. You can't do that with CSS",
+    "answer": "C. text-transform:capitalize - The text-transform property with value capitalize makes the first letter of each word uppercase.",
+    "category": "CSS"
+  },
+  {
+    "id": 55,
+    "question": "Which property changes the font of an element?\nA. font-style\nB. font-weight\nC. font-family",
+    "answer": "C. font-family - The font-family property specifies the font family (typeface) for text. font-style changes italic/oblique, font-weight changes boldness.",
+    "category": "CSS"
+  },
+  {
+    "id": 56,
+    "question": "How do you make text bold?\nA. font:bold;\nB. style:bold;\nC. font-weight:bold;",
+    "answer": "C. font-weight:bold; - The font-weight property with value bold makes text bold. You can also use numeric values like 700.",
+    "category": "CSS"
+  },
+  {
+    "id": 57,
+    "question": "Border widths: top = 10px, bottom = 5px, left = 20px, right = 1px\nA. border-width:10px 5px 20px 1px;\nB. border-width:10px 20px 5px 1px;\nC. border-width:5px 20px 10px 1px;\nD. border-width:10px 1px 5px 20px;",
+    "answer": "D. border-width:10px 1px 5px 20px; - When using shorthand with 4 values, the order is top, right, bottom, left (clockwise).",
+    "category": "CSS"
+  },
+  {
+    "id": 58,
+    "question": "Which property changes the left margin?\nA. padding-left\nB. margin-left\nC. indent",
+    "answer": "B. margin-left - The margin-left property sets the left margin of an element. padding-left sets padding, not margin.",
+    "category": "CSS"
+  },
+  {
+    "id": 59,
+    "question": "Can you use negative values for padding?\nA. Yes\nB. No",
+    "answer": "B. No - Padding cannot have negative values. Margins can have negative values, but padding cannot.",
+    "category": "CSS"
+  },
+  {
+    "id": 60,
+    "question": "How do you make a list display square bullets?\nA. list: square;\nB. list-style-type: square;\nC. list-type: square;",
+    "answer": "B. list-style-type: square; - The list-style-type property with value square makes list items display with square bullets.",
+    "category": "CSS"
+  },
+  {
+    "id": 61,
+    "question": "How do you select an element with id demo?\nA. *demo\nB. demo\nC. .demo\nD. #demo",
+    "answer": "D. #demo - The hash (#) symbol is used to select elements by their id attribute in CSS.",
+    "category": "CSS"
+  },
+  {
+    "id": 62,
+    "question": "How do you select elements with class test?\nA. .test\nB. *test\nC. #test\nD. test",
+    "answer": "A. .test - The dot (.) symbol is used to select elements by their class attribute in CSS.",
+    "category": "CSS"
+  },
+  {
+    "id": 63,
+    "question": "How do you select all <p> elements inside a <div>?\nA. div + p\nB. div p\nC. div.p",
+    "answer": "B. div p - The space (descendant selector) selects all <p> elements that are descendants of <div> elements. div + p is the adjacent sibling selector.",
+    "category": "CSS"
+  },
+  {
+    "id": 64,
+    "question": "How do you group selectors?\nA. Separate each selector with a space\nB. Separate each selector with a comma\nC. Separate each selector with a plus sign",
+    "answer": "B. Separate each selector with a comma - Multiple selectors can be grouped together using commas to apply the same styles to different elements.",
+    "category": "CSS"
+  },
+  {
+    "id": 65,
+    "question": "What is the default value of the position property?\nA. relative\nB. fixed\nC. absolute\nD. static",
+    "answer": "D. static - The default value of the position property is static, which means the element follows the normal document flow.",
+    "category": "CSS"
+  },
+  {
+    "id": 66,
+    "question": "Inside which HTML element do we put the JavaScript?\nA. <scripting>\nB. <script>\nC. <javascript>\nD. <js>",
+    "answer": "B. <script> - JavaScript code is placed inside the <script> element in HTML.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 67,
+    "question": "Correct JavaScript syntax to change the content of this element:\n <p id=\"demo\">This is a demonstration.</p>\nA. document.getElementById(\"demo\").innerHTML = \"Hello World!\";\nB. document.getElement(\"p\").innerHTML = \"Hello World!\";\nC. #demo.innerHTML = \"Hello World!\";\nD. document.getElementByName(\"p\").innerHTML = \"Hello World!\";",
+    "answer": "A. document.getElementById(\"demo\").innerHTML = \"Hello World!\"; - getElementById() is the correct method to select an element by its id, and innerHTML is used to change the content.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 68,
+    "question": "Where is the correct place to insert JavaScript?\nA. The <head> section\nB. The <body> section\nC. Both the <head> and <body> sections",
+    "answer": "C. Both the <head> and <body> sections - JavaScript can be placed in either the <head> or <body> section, or both, depending on when you want the script to execute.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 69,
+    "question": "Correct syntax for referring to an external script named \"xxx.js\":\nA. <script src=\"xxx.js\">\nB. <script href=\"xxx.js\">\nC. <script name=\"xxx.js\">",
+    "answer": "A. <script src=\"xxx.js\"> - The src attribute is used to specify the URL of an external JavaScript file. href is used for links, not scripts.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 70,
+    "question": "The external JavaScript file must contain the <script> tag.\nA. True\nB. False",
+    "answer": "B. False - External JavaScript files should contain only JavaScript code, not HTML tags like <script>. The <script> tag is only used in the HTML file that references the external script.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 71,
+    "question": "How do you write \"Hello World\" in an alert box?\nA. alertBox(\"Hello World\");\nB. msgBox(\"Hello World\");\nC. alert(\"Hello World\");\nD. msg(\"Hello World\");",
+    "answer": "C. alert(\"Hello World\"); - The alert() function displays an alert dialog with the specified message.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 72,
+    "question": "How do you create a function in JavaScript?\nA. function myFunction()\nB. function:myFunction()\nC. function = myFunction()",
+    "answer": "A. function myFunction() - Functions are declared using the function keyword followed by the function name and parentheses.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 73,
+    "question": "How do you call a function named \"myFunction\"?\nA. call myFunction()\nB. myFunction()\nC. call function myFunction()",
+    "answer": "B. myFunction() - To call a function, simply write the function name followed by parentheses.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 74,
+    "question": "How do you write an IF statement in JavaScript?\nA. if i = 5 then\nB. if (i == 5)\nC. if i == 5 then\nD. if i = 5",
+    "answer": "B. if (i == 5) - JavaScript if statements use parentheses around the condition. == is used for comparison, = is for assignment.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 75,
+    "question": "IF statement for \"i is NOT equal to 5\":\nA. if i =! 5 then\nB. if (i != 5)\nC. if i <> 5\nD. if (i <> 5)",
+    "answer": "B. if (i != 5) - The != operator means \"not equal to\". The condition must be in parentheses.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 76,
+    "question": "How does a WHILE loop start?\nA. while (i <= 10; i++)\nB. while i = 1 to 10\nC. while (i <= 10)",
+    "answer": "C. while (i <= 10) - A while loop starts with the while keyword followed by a condition in parentheses. The increment (i++) goes inside the loop body, not in the condition.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 77,
+    "question": "How does a FOR loop start?\nA. for (i <= 5; i++)\nB. for (i = 0; i <= 5; i++)\nC. for (i = 0; i <= 5)\nD. for i = 1 to 5",
+    "answer": "B. for (i = 0; i <= 5; i++) - A for loop has three parts: initialization (i = 0), condition (i <= 5), and increment (i++), all separated by semicolons.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 78,
+    "question": "How do you add a comment in JavaScript?\nA. //This is a comment\nB. <!--This is a comment-->\nC. 'This is a comment",
+    "answer": "A. //This is a comment - Single-line comments in JavaScript use //. <!-- --> is HTML comment syntax, not JavaScript.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 79,
+    "question": "How do you insert a multi-line comment?\nA. /* This comment has\n more than one line */\nB. <!-- This comment has more than one line -->\nC. // This comment has\n more than one line //",
+    "answer": "A. /* This comment has\n more than one line */ - Multi-line comments in JavaScript use /* to start and */ to end.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 80,
+    "question": "Correct way to write a JavaScript array:\nA. var colors = 1 = (\"red\"), 2 = (\"green\"), 3 = (\"blue\")\nB. var colors = \"red\", \"green\", \"blue\"\nC. var colors = [\"red\", \"green\", \"blue\"]\nD. var colors = (1:\"red\", 2:\"green\", 3:\"blue\")",
+    "answer": "C. var colors = [\"red\", \"green\", \"blue\"] - Arrays in JavaScript are created using square brackets [] with elements separated by commas.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 81,
+    "question": "How do you round 7.25 to the nearest integer?\nA. round(7.25)\nB. Math.round(7.25)\nC. rnd(7.25)\nD. Math.rnd(7.25)",
+    "answer": "B. Math.round(7.25) - The Math.round() method rounds a number to the nearest integer. Math is a built-in object that provides mathematical functions.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 82,
+    "question": "How do you find the highest value between x and y?\nA. Math.max(x, y)\nB. ceil(x, y)\nC. top(x, y)\nD. Math.ceil(x, y)",
+    "answer": "A. Math.max(x, y) - Math.max() returns the largest of the given numbers. Math.ceil() rounds up to the nearest integer, but doesn't compare two values.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 83,
+    "question": "Correct syntax for opening a new window called \"w2\":\nA. w2 = window.new(\"http://www.w3schools.com\");\nB. w2 = window.open(\"http://www.w3schools.com\");",
+    "answer": "B. w2 = window.open(\"http://www.w3schools.com\"); - The window.open() method opens a new browser window or tab. There is no window.new() method.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 84,
+    "question": "JavaScript is the same as Java.\nA. True\nB. False",
+    "answer": "B. False - JavaScript and Java are completely different programming languages. JavaScript was originally named to capitalize on Java's popularity, but they are unrelated.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 85,
+    "question": "Which is NOT a legal variable declaration keyword?\nA. constant\nB. var\nC. let",
+    "answer": "A. constant - The correct keyword is const (not constant). var and let are both valid keywords for declaring variables in JavaScript.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 86,
+    "question": "Which event occurs when the user clicks an element?\nA. onmouseclick\nB. onclick\nC. onmouseover\nD. onchange",
+    "answer": "B. onclick - The onclick event occurs when a user clicks on an element. onmouseover occurs when the mouse moves over an element, and onchange occurs when the value of an element changes.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 87,
+    "question": "How do you declare a JavaScript variable?\nA. v carName;\nB. variable carName;\nC. var carName;",
+    "answer": "C. var carName; - Variables in JavaScript are declared using var, let, or const keywords. 'v' and 'variable' are not valid keywords.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 88,
+    "question": "Which operator assigns a value to a variable?\nA. x\nB. -\nC. =\nD. *",
+    "answer": "C. = - The assignment operator (=) is used to assign a value to a variable. * is multiplication, - is subtraction.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 89,
+    "question": "Boolean(10 > 9) returns:\nA. NaN\nB. false\nC. true",
+    "answer": "C. true - The expression 10 > 9 evaluates to true because 10 is greater than 9. Boolean() converts the result to a boolean value.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 90,
+    "question": "Is JavaScript case-sensitive?\nA. No\nB. Yes",
+    "answer": "B. Yes - JavaScript is case-sensitive. This means that variables, function names, and keywords must be written with consistent capitalization.",
+    "category": "JavaScript"
+  },
+  {
+    "id": 91,
+    "question": "Bootstrap 3 is mobile-first.\nA. True\nB. False",
+    "answer": "A. True - Bootstrap 3 is designed with a mobile-first approach, meaning it's optimized for mobile devices first, then scales up for larger screens.",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 92,
+    "question": "Which class provides a responsive fixed-width container?\nA. .container\nB. .container-fixed\nC. .container-fluid",
+    "answer": "A. .container - The .container class provides a responsive fixed-width container that adapts to different screen sizes.",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 93,
+    "question": "Which class provides a full-width container spanning the entire viewport?\nA. .container\nB. .container-fixed\nC. .container-fluid",
+    "answer": "C. .container-fluid - The .container-fluid class provides a full-width container that spans the entire width of the viewport.",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 94,
+    "question": "The Bootstrap grid system is based on how many columns?\nA. 3\nB. 12\nC. 6\nD. 9",
+    "answer": "B. 12 - The Bootstrap grid system is based on a 12-column layout, which allows for flexible and responsive page layouts.",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 95,
+    "question": "Which class adds zebra-stripes to a table?\nA. .even and .odd\nB. .table-bordered\nC. .table-striped\nD. .table-zebra",
+    "answer": "C. .table-striped - The .table-striped class adds zebra-striping (alternating row colors) to any table row within the <tbody>.",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 96,
+    "question": "Which class shapes an image to a circle?\nA. .img-rounded\nB. .img-thumbnail\nC. .img-circle\nD. .img-round",
+    "answer": "C. .img-circle - The .img-circle class shapes images into circles. .img-rounded adds rounded corners, and .img-thumbnail creates a thumbnail.",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 97,
+    "question": "Which class is used to create a big box that calls attention?\nA. .bigbox\nB. .container\nC. .jumbotron",
+    "answer": "C. .jumbotron - The .jumbotron class creates a big box for calling extra attention to featured content or information.",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 98,
+    "question": "Which button class is used to create a large button?\nA. .btn-large\nB. .btn-l\nC. .btn-lg\nD. .btn-xl",
+    "answer": "C. .btn-lg - The .btn-lg class creates a large button. Bootstrap also provides .btn-sm for small buttons and .btn-xs for extra small buttons.",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 99,
+    "question": "Which class is used to create a button group?\nA. .group-button\nB. .group-btn\nC. .btn-group\nD. .button-group",
+    "answer": "C. .btn-group - The .btn-group class groups a series of buttons together on a single line, which is useful for toolbar-like presentations.",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 100,
+    "question": "How do you insert a search icon?\nA. <span class=\"glyphicon-search\"></span>\nB. <span class=\"glyph glyph-search\"></span>\nC. <span class=\"glyphicon search\"></span>\nD. <span class=\"glyphicon glyphicon-search\"></span>",
+    "answer": "D. <span class=\"glyphicon glyphicon-search\"></span> - Bootstrap's Glyphicons require both the base .glyphicon class and the specific icon class (e.g., .glyphicon-search).",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 101,
+    "question": "Which class is used to create a badge?\nA. .flag\nB. .tag\nC. .badge\nD. .label",
+    "answer": "C. .badge - The .badge class is used to create badges, which are small labels used to highlight new or unread items.",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 102,
+    "question": "Which class is used to create basic pagination?\nA. .page\nB. .navigation\nC. .pages\nD. .pagination",
+    "answer": "D. .pagination - The .pagination class is used to create pagination links, which are useful for splitting content across multiple pages.",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 103,
+    "question": "Which class is used to create a basic list group?\nA. .list-group\nB. .grouped-list\nC. .group-list",
+    "answer": "A. .list-group - The .list-group class is used to create a list of items. List groups are a flexible and powerful component for displaying lists of content.",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 104,
+    "question": "Which class adds a heading to a panel?\nA. .panel-head\nB. .panel-footer\nC. .panel-header\nD. .panel-heading",
+    "answer": "D. .panel-heading - The .panel-heading class adds a heading to a panel. Bootstrap panels also use .panel-body for the main content and .panel-footer for the footer.",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 105,
+    "question": "Which class indicates a dropdown menu?\nA. .dropdown-list\nB. .select\nC. .dropdown",
+    "answer": "C. .dropdown - The .dropdown class is used to create a dropdown menu. It requires the .dropdown-menu class for the actual dropdown content.",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 106,
+    "question": "A standard navigation tab is created with:\nA. <ul class=\"nav tabs\">\nB. <ul class=\"navigation-tabs\">\nC. <ul class=\"nav nav-tabs\">\nD. <ul class=\"nav nav-navbar\">",
+    "answer": "C. <ul class=\"nav nav-tabs\"> - Navigation tabs are created using both the .nav base class and the .nav-tabs modifier class.",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 107,
+    "question": "A standard navigation bar is created with:\nA. <nav class=\"nav navbar\">\nB. <nav class=\"navbar navbar-default\">\nC. <nav class=\"navigationbar navbar-default\">\nD. <nav class=\"navbar default-navbar\">",
+    "answer": "B. <nav class=\"navbar navbar-default\"> - A standard navigation bar uses the .navbar base class along with .navbar-default for the default styling.",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 108,
+    "question": "Which class is used to create a black navigation bar?\nA. .navbar-black\nB. .navbar-dark\nC. .navbar-inverse\nD. .navbar-default",
+    "answer": "C. .navbar-inverse - The .navbar-inverse class creates a black/dark navigation bar. In Bootstrap 4+, this was replaced with .navbar-dark.",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 109,
+    "question": "Which plugin cycles through elements like a slideshow?\nA. Orbit\nB. Scrollspy\nC. Slideshow\nD. Carousel",
+    "answer": "D. Carousel - The Carousel plugin is a slideshow component for cycling through elements, images, or slides of text.",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 110,
+    "question": "Which plugin is used to create a modal window?\nA. Window\nB. Modal\nC. Dialog Box\nD. Popup",
+    "answer": "B. Modal - The Modal plugin creates a dialog box/popup window that is displayed on top of the current page.",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 111,
+    "question": "Which plugin is used to create a tooltip?\nA. Tooltip\nB. Popup\nC. Dialog Box\nD. Modal",
+    "answer": "A. Tooltip - The Tooltip plugin creates small pop-up boxes that appear when the user moves the mouse pointer over an element.",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 112,
+    "question": "Which contextual class indicates a successful or positive action?\nA. .text-info\nB. .text-primary\nC. .text-success\nD. .text-warning",
+    "answer": "C. .text-success - The .text-success class indicates a successful or positive action. Bootstrap provides contextual classes for different semantic meanings.",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 113,
+    "question": "Which contextual class indicates a dangerous or negative action?\nA. .text-info\nB. .text-danger\nC. .text-primary\nD. .text-warning",
+    "answer": "B. .text-danger - The .text-danger class indicates a dangerous or potentially negative action, typically displayed in red.",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 114,
+    "question": "Which class indicates uppercased text?\nA. .uppercase\nB. .text-capitalize\nC. .ucase\nD. .text-uppercase",
+    "answer": "D. .text-uppercase - The .text-uppercase class transforms text to uppercase. Bootstrap also provides .text-lowercase and .text-capitalize.",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 115,
+    "question": "The Bootstrap grid system works across multiple devices.\nA. False\nB. True",
+    "answer": "B. True - The Bootstrap grid system is responsive and works across multiple devices and screen sizes, from mobile phones to large desktop screens.",
+    "category": "Bootstrap"
+  },
+  {
+    "id": 116,
+    "question": "What is React?\nA. React is a programming language.\nB. React is a database engine.\nC. React is a JavaScript library for building user interfaces.",
+    "answer": "C. React is a JavaScript library for building user interfaces - React is a popular JavaScript library developed by Facebook for building interactive user interfaces, particularly for web applications.",
+    "category": "React"
+  },
+  {
+    "id": 117,
+    "question": "What does my-react-app refer to in the command?\n npm create vite@latest my-react-app -- --template react\nA. The name you want to use for the new app\nB. The type of app to create\nC. A reference to an existing app",
+    "answer": "A. The name you want to use for the new app - In the command, 'my-react-app' is the name you choose for your new React application. You can replace it with any name you prefer.",
+    "category": "React"
+  },
+  {
+    "id": 118,
+    "question": "What command starts the React development server?\nA. npm run dev\nB. npm start\nC. npm build\nD. npm serve",
+    "answer": "A. npm run dev - When using Vite, the command 'npm run dev' starts the development server. For Create React App, it would be 'npm start'.",
+    "category": "React"
+  },
+  {
+    "id": 119,
+    "question": "Default localhost port that Vite uses:\nA. 5000\nB. 3000\nC. 8080\nD. 5173",
+    "answer": "D. 5173 - Vite uses port 5173 by default for the development server. Create React App uses port 3000 by default.",
+    "category": "React"
+  },
+  {
+    "id": 120,
+    "question": "To develop and run React code, Node.js is required.\nA. False\nB. True",
+    "answer": "B. True - Node.js is required to run React development tools, package managers (npm/yarn), and the development server. React applications need Node.js to be installed.",
+    "category": "React"
+  },
+  {
+    "id": 121,
+    "question": "What type of element will be rendered?\nfunction Car() {\n  return <h1>Ford Mustang</h1>;\n}\ncreateRoot(document.getElementById('root')).render(<Car />)\n\nA. ReactDom\nB. div\nC. Component\nD. h1",
+    "answer": "D. h1 - The Car component returns an <h1> element, so when rendered, an <h1> element will be displayed in the DOM. The component itself is just a function that returns JSX.",
+    "category": "React"
+  },
+  {
+    "id": 122,
+    "question": "What is the children prop?\nA. A property that lets you set an object as a property\nB. A property that lets you pass data to child components\nC. A property that adds child values to state\nD. A property that lets you nest components inside other components",
+    "answer": "D. A property that lets you nest components inside other components - The children prop is a special prop that allows you to pass content between component tags, enabling component composition.",
+    "category": "React"
+  },
+  {
+    "id": 123,
+    "question": "Which keyword creates a constant?\nA. constant\nB. const\nC. let\nD. var",
+    "answer": "B. const - The const keyword creates a constant variable that cannot be reassigned. let creates a block-scoped variable, and var creates a function-scoped variable.",
+    "category": "React"
+  },
+  {
+    "id": 124,
+    "question": "A copy of the real DOM that is kept in memory is called:\nA. Shadow DOM\nB. DOM\nC. Virtual DOM\nD. React DOM",
+    "answer": "C. Virtual DOM - React uses a Virtual DOM, which is a lightweight copy of the real DOM kept in memory. React compares the Virtual DOM with the real DOM to efficiently update only what changed.",
+    "category": "React"
+  },
+  {
+    "id": 125,
+    "question": "React component names must begin with an uppercase letter.\nA. True\nB. False",
+    "answer": "A. True - React component names must start with an uppercase letter. Lowercase names are treated as HTML elements, while uppercase names are treated as React components.",
+    "category": "React"
+  },
+  {
+    "id": 126,
+    "question": "Which operator is used for conditional rendering?\nA. ??\nB. ||\nC. ::\nD. &&",
+    "answer": "D. && - The && (logical AND) operator is commonly used for conditional rendering in React. If the condition is true, it renders the element; if false, it renders nothing.",
+    "category": "React"
+  },
+  {
+    "id": 127,
+    "question": "When rendering a list using map(), what is required?\nA. index\nB. key\nC. data\nD. id",
+    "answer": "B. key - When rendering lists in React, each element must have a unique 'key' prop. This helps React identify which items have changed, been added, or removed for efficient updates.",
+    "category": "React"
+  },
+  {
+    "id": 128,
+    "question": "What does JSX stand for?\nA. JavaScript Extreme\nB. JavaScript XML\nC. JavaScript Expressions\nD. JavaScript X-factor",
+    "answer": "B. JavaScript XML - JSX stands for JavaScript XML. It's a syntax extension that allows you to write HTML-like code in JavaScript, which React then transforms into JavaScript.",
+    "category": "React"
+  },
+  {
+    "id": 129,
+    "question": "How can you optimize performance for a component that always renders the same?\nA. Use the useMemo Hook.\nB. Use the useReducer Hook.\nC. Wrap it in React.memo\nD. Use shouldComponentUpdate",
+    "answer": "C. Wrap it in React.memo - React.memo is a higher-order component that memoizes the result, preventing unnecessary re-renders when props haven't changed. This is useful for function components.",
+    "category": "React"
+  },
+  {
+    "id": 130,
+    "question": "What props will be available here?\n<Car {...props} />\nA. all of them\nB. children\nC. only static ones\nD. only updated ones",
+    "answer": "A. all of them - The spread operator {...props} passes all properties from the props object to the Car component. This is a convenient way to pass multiple props at once.",
+    "category": "React"
+  },
+  {
+    "id": 131,
+    "question": "What is a common use case for ref?\nA. To refer to a function\nB. To bind the function\nC. To directly access a DOM node\nD. To refer to another JavaScript file",
+    "answer": "C. To directly access a DOM node - Refs provide a way to access DOM nodes or React elements directly. Common use cases include focusing inputs, measuring elements, or integrating with third-party DOM libraries.",
+    "category": "React"
+  },
+  {
+    "id": 132,
+    "question": "How do you combine arrays using the spread operator?\nA. const combined = ...array1 + ...array2;\nB. const combined = array1 + array2;\nC. const combined = [array1, array2];\nD. const combined = [...array1, ...array2];",
+    "answer": "D. const combined = [...array1, ...array2]; - The spread operator (...) expands arrays into individual elements. [...array1, ...array2] creates a new array containing all elements from both arrays.",
+    "category": "React"
+  },
+  {
+    "id": 133,
+    "question": "React can only render elements inside the root element.\nA. True\nB. False",
+    "answer": "B. False - While React typically renders into a single root element, you can have multiple root elements using React 18's createRoot. However, each component can only return a single root element (or use fragments).",
+    "category": "React"
+  },
+  {
+    "id": 134,
+    "question": "Correct syntax to export component Car:\nA. export Car as Component;\nB. export default Car;\nC. export internal Car;\nD. export Component.Car;",
+    "answer": "B. export default Car; - The 'export default' syntax allows you to export a component as the default export, which can then be imported without curly braces in other files.",
+    "category": "React"
+  },
+  {
+    "id": 135,
+    "question": "Find the bug:\nfunction car({make, model}) {\n  return <h1>{make} {model}</h1>;\n}\n\n\nA. Add parentheses around return\nB. Remove the return\nC. Wrap return in fragment\nD. The function must start with a capital letter",
+    "answer": "D. The function must start with a capital letter - React component names must start with an uppercase letter. 'car' should be 'Car'. Lowercase names are treated as HTML elements, not React components.",
+    "category": "React"
+  },
+  {
+    "id": 136,
+    "question": "How are components combined to create a UI?\nA. With code splitting\nB. By nesting components\nC. By putting them in a folder\nD. With webpack",
+    "answer": "B. By nesting components - Components are combined by nesting them inside other components. This composition allows you to build complex UIs from simple, reusable pieces.",
+    "category": "React"
+  },
+  {
+    "id": 137,
+    "question": "React Hooks replace class components, but classes will stay in React.\nA. False\nB. True",
+    "answer": "B. True - React Hooks provide a way to use state and other React features in function components, but class components are still supported and will remain in React for backward compatibility.",
+    "category": "React"
+  },
+  {
+    "id": 138,
+    "question": "Which is NOT a rule of Hooks?\nA. Hooks cannot be conditional\nB. Hooks can only be called inside Function components\nC. Hooks can be called in Class or Function components\nD. Hooks can only be called at the top level",
+    "answer": "C. Hooks can be called in Class or Function components - Hooks can ONLY be called in Function components, not in Class components. This is one of the fundamental rules of Hooks.",
+    "category": "React"
+  },
+  {
+    "id": 139,
+    "question": "What is the output?\nconst make = 'Ford';\nconst model = 'Mustang';\nconst car = { make, model };\nconsole.log(car);\n\n\nA. {car: {make: 'Ford', model: 'Mustang'}}\nB. {make: 'Ford', model: 'Mustang'}\nC. {car: 'Ford', car: 'Mustang'}}\nD. {{make: 'Ford', model: 'Mustang'}}",
+    "answer": "B. {make: 'Ford', model: 'Mustang'} - This uses ES6 shorthand property syntax. When the property name and variable name are the same, you can use { make, model } instead of { make: make, model: model }.",
+    "category": "React"
+  },
+  {
+    "id": 140,
+    "question": "Why should you avoid copying prop values into state?\nA. Because props cannot be stored in state\nB. Because it creates two versions of the same state that can get out of sync\nC. Because data must flow up to the parent\nD. Because you should never mutate state",
+    "answer": "B. Because it creates two versions of the same state that can get out of sync - Copying props into state creates a duplicate source of truth. If props change, the state won't update automatically, leading to inconsistencies. Use props directly or derive state from props when needed.",
+    "category": "React"
+  },
+  {
+    "id": 141,
+    "question": "What is the correct syntax for creating a Django project?\nA. django-admin startproject my_tennis_club\nB. django start my_tennis_club\nC. py manage.py start-django my_tennis_club",
+    "answer": "A. django-admin startproject my_tennis_club - The django-admin startproject command creates a new Django project with the specified name. This is the standard way to initialize a new Django project.",
+    "category": "Django"
+  },
+  {
+    "id": 142,
+    "question": "Correct syntax to start the Django development server:\nA. py manage.py startserver\nB. py manage.py runserver\nC. py manage.py run",
+    "answer": "B. py manage.py runserver - The runserver command starts Django's development server. On Unix/Mac, you would use 'python manage.py runserver' instead of 'py'.",
+    "category": "Django"
+  },
+  {
+    "id": 143,
+    "question": "Which file is NOT part of a new Django project?\nA. templates.py\nB. manage.py\nC. settings.py",
+    "answer": "A. templates.py - templates.py is not a standard Django file. manage.py is the command-line utility, and settings.py contains project settings. Templates are typically stored in a 'templates' directory, not a .py file.",
+    "category": "Django"
+  },
+  {
+    "id": 144,
+    "question": "Which language is Django written in?\nA. Java\nB. C\nC. Python",
+    "answer": "C. Python - Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design.",
+    "category": "Django"
+  },
+  {
+    "id": 145,
+    "question": "Incoming requests are handled in which file?\nA. settings.py\nB. urls.py\nC. manage.py",
+    "answer": "B. urls.py - The urls.py file contains URL patterns that map URLs to views. This is where Django routes incoming requests to the appropriate view functions.",
+    "category": "Django"
+  },
+  {
+    "id": 146,
+    "question": "Incoming requests are redirected to functions called:\nA. controls\nB. models\nC. views",
+    "answer": "C. views - In Django's MVC-like architecture, views are Python functions (or classes) that handle requests and return responses. They contain the business logic for processing requests.",
+    "category": "Django"
+  },
+  {
+    "id": 147,
+    "question": "Django templates are often .html pages.\nA. Yes\nB. No, never",
+    "answer": "A. Yes - Django templates are typically HTML files that can contain Django template language syntax. They're stored in a 'templates' directory and have .html extensions.",
+    "category": "Django"
+  },
+  {
+    "id": 148,
+    "question": "In Django, data is created in objects called:\nA. Tables\nB. Models\nC. SQLite",
+    "answer": "B. Models - Models in Django are Python classes that define the structure of your database tables. Each model maps to a database table, and model attributes map to table columns.",
+    "category": "Django"
+  },
+  {
+    "id": 149,
+    "question": "After changing a model, which command must you run?\nA. py manage.py executemigrations\nB. py manage.py makemigrations\nC. py manage.py runmigrations",
+    "answer": "B. py manage.py makemigrations - After modifying models, you must run makemigrations to create migration files that describe the changes. Then run migrate to apply them to the database.",
+    "category": "Django"
+  },
+  {
+    "id": 150,
+    "question": "Correct syntax to import a model named Member from app members:\nA. import Member from members\nB. import members.Member\nC. from members.models import Member",
+    "answer": "C. from members.models import Member - In Django, models are typically stored in a models.py file within each app. The correct import syntax follows Python's module import pattern.",
+    "category": "Django"
+  },
+  {
+    "id": 151,
+    "question": "Correct way to use a Django variable named firstname in a template:\nA. '' firstname ''\nB. ## firstname ##\nC. {{ firstname }}",
+    "answer": "C. {{ firstname }} - Django template variables are enclosed in double curly braces {{ }}. This syntax outputs the value of the variable in the template.",
+    "category": "Django"
+  },
+  {
+    "id": 152,
+    "question": "In Django, views are written as:\nA. Python tuples\nB. Python functions\nC. Python dictionaries",
+    "answer": "B. Python functions - Django views are typically written as Python functions (or classes) that take a request object and return an HttpResponse. Function-based views are the most common approach.",
+    "category": "Django"
+  },
+  {
+    "id": 153,
+    "question": "The configuration file for Django installation is:\nA. config.py\nB. settings.py\nC. views.py",
+    "answer": "B. settings.py - The settings.py file contains all the configuration for your Django project, including database settings, installed apps, middleware, templates, and more.",
+    "category": "Django"
+  },
+  {
+    "id": 154,
+    "question": "Correct syntax to turn off debugging:\nA. DEBUG : 0\nB. DEBUG = False\nC. DEBUG = 'OFF'\nD. DEBUG : 'off'",
+    "answer": "B. DEBUG = False - In settings.py, DEBUG is a boolean variable. Set it to False to turn off debugging mode, which is essential for production deployments.",
+    "category": "Django"
+  },
+  {
+    "id": 155,
+    "question": "When debugging is off, you must define allowed hosts.\nA. False\nB. True",
+    "answer": "B. True - When DEBUG = False, Django requires you to set ALLOWED_HOSTS in settings.py. This is a security measure that specifies which host/domain names your Django site can serve.",
+    "category": "Django"
+  },
+  {
+    "id": 156,
+    "question": "Correct syntax to create a superuser for the admin interface:\nA. py manage.py createuser\nB. py manage.py createsuperuser\nC. py.manage.py createadminuser",
+    "answer": "B. py manage.py createsuperuser - The createsuperuser command creates an admin user with full permissions to access Django's admin interface.",
+    "category": "Django"
+  },
+  {
+    "id": 157,
+    "question": "A model must be registered in which file to appear in admin?\nA. settings.py\nB. admin.py\nC. views.py",
+    "answer": "B. admin.py - Models must be registered in the admin.py file using admin.site.register() to appear in Django's admin interface.",
+    "category": "Django"
+  },
+  {
+    "id": 158,
+    "question": "Correct syntax for a Django for loop:\nA. <% for x in y %>\nB. { for x in y }\nC. {% for x in y %}",
+    "answer": "C. {% for x in y %} - Django template tags use {% %} syntax. The for loop tag iterates over a sequence, similar to Python's for loop.",
+    "category": "Django"
+  },
+  {
+    "id": 159,
+    "question": "Correct Django tag for writing a comment:\nA. remove\nB. exclude\nC. comment",
+    "answer": "C. comment - The {% comment %} tag allows you to write comments in Django templates that won't be rendered in the final HTML output.",
+    "category": "Django"
+  },
+  {
+    "id": 160,
+    "question": "Correct Django tag for writing an if statement:\nA. if\nB. when\nC. !!",
+    "answer": "A. if - The {% if %} tag is used for conditional rendering in Django templates, similar to Python's if statement.",
+    "category": "Django"
+  },
+  {
+    "id": 161,
+    "question": "Correct tag to end an if statement:\nA. end\nB. end if\nC. endif\nD. /if",
+    "answer": "C. endif - Django template tags that require closing use {% endif %} to close an {% if %} statement. This follows the pattern of {% tag %} ... {% endtag %}.",
+    "category": "Django"
+  },
+  {
+    "id": 162,
+    "question": "Correct equality operator in an if statement:\nA. if A equal B\nB. if A == B\nC. if A like B",
+    "answer": "B. if A == B - Django templates use == for equality comparison, just like Python. The == operator checks if two values are equal.",
+    "category": "Django"
+  },
+  {
+    "id": 163,
+    "question": "Tag used to create a variable inside a template:\nA. with\nB. var\nC. let",
+    "answer": "A. with - The {% with %} tag allows you to create a variable within a template block. It's useful for caching complex expressions or creating temporary variables.",
+    "category": "Django"
+  },
+  {
+    "id": 164,
+    "question": "Correct syntax to return only records where firstname is \"Emil\":\nA. where(firstname LIKE 'Emil')\nB. filter(firstname='Emil')\nC. get(firstname='Emil')",
+    "answer": "B. filter(firstname='Emil') - The filter() method returns a QuerySet containing objects that match the given lookup parameters. get() returns a single object and raises an exception if multiple or no objects are found.",
+    "category": "Django"
+  },
+  {
+    "id": 165,
+    "question": "Correct syntax to sort a queryset alphabetically by firstname:\nA. sort('firstname')\nB. order_by('firstname')\nC. sortby('firstname')\nD. orderby('firstname')",
+    "answer": "B. order_by('firstname') - The order_by() method sorts a QuerySet by the specified field(s). Use '-firstname' for descending order.",
+    "category": "Django"
+  },
+  {
+    "id": 166,
+    "question": "What Git command is used to create a new local repository?\nA. git start\nB. git init\nC. git create\nD. git new",
+    "answer": "B. git init - The 'git init' command initializes a new Git repository in the current directory, creating a .git folder that tracks all changes.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 167,
+    "question": "Which command downloads a repository from GitHub?\nA. git download\nB. git clone\nC. git fetch\nD. git pull",
+    "answer": "B. git clone - The 'git clone' command creates a copy of a remote repository on your local machine, including all files and commit history.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 168,
+    "question": "Purpose of .gitignore?\nA. List contributors\nB. Specify files Git should ignore\nC. Define GitHub Actions\nD. Store Git config",
+    "answer": "B. Specify files Git should ignore - The .gitignore file tells Git which files and directories to ignore, preventing them from being tracked or committed.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 169,
+    "question": "Correct TDD sequence?\nA. Write code → write tests → refactor\nB. Design tests → write code → test\nC. Write tests → write code → refactor\nD. Design architecture → write tests → implement",
+    "answer": "C. Write tests → write code → refactor - Test-Driven Development (TDD) follows the Red-Green-Refactor cycle: write failing tests first, then write code to pass, then refactor.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 170,
+    "question": "Unit tests…\nA. Test entire app\nB. Test individual components in isolation\nC. Only test UI\nD. Require a production DB",
+    "answer": "B. Test individual components in isolation - Unit tests verify that individual functions, methods, or components work correctly in isolation, without dependencies on other parts of the system.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 171,
+    "question": "Select all columns from \"users\":\nA. SELECT users\nB. SELECT ALL FROM users\nC. SELECT * FROM users\nD. SELECT COLUMNS FROM users",
+    "answer": "C. SELECT * FROM users - The asterisk (*) is a wildcard that selects all columns from the specified table.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 172,
+    "question": "SQL command to add a new record:\nA. ADD\nB. INSERT\nC. APPEND\nD. CREATE",
+    "answer": "B. INSERT - The INSERT statement adds new rows of data to a table in the database.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 173,
+    "question": "REST stands for:\nA. Reactive State Transfer\nB. Representational State Transfer\nC. Resource Standard Transfer\nD. Remote Execution Service Tech",
+    "answer": "B. Representational State Transfer - REST is an architectural style for designing networked applications, using standard HTTP methods (GET, POST, PUT, DELETE).",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 174,
+    "question": "Successful status code:\nA. 200\nB. 404\nC. 500\nD. 302",
+    "answer": "A. 200 - HTTP status code 200 indicates a successful request. 404 is Not Found, 500 is Server Error, and 302 is a redirect.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 175,
+    "question": "Correct JSON syntax:\nA. {name: \"John\", age: 30}\nB. {\"name\": \"John\", \"age\": 30}\nC. {name = \"John\"}\nD. {\"name\" = \"John\"}",
+    "answer": "B. {\"name\": \"John\", \"age\": 30} - JSON requires property names to be in double quotes, and uses colons (:) to separate keys from values, not equals signs.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 176,
+    "question": "Purpose of a linter?\nA. Optimize performance\nB. Identify coding errors/style issues\nC. Compile code\nD. Manage dependencies",
+    "answer": "B. Identify coding errors/style issues - Linters analyze code to find potential errors, enforce coding standards, and suggest improvements for code quality and consistency.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 177,
+    "question": "Main purpose of a precommit hook?\nA. Auto-commit changes\nB. Run tests/linters before commit\nC. Create branch for each commit\nD. Sync with remote",
+    "answer": "B. Run tests/linters before commit - Pre-commit hooks automatically run scripts (like tests or linters) before a commit is finalized, helping catch issues early.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 178,
+    "question": "Define an unordered list:\nA. <ol>\nB. <ul>\nC. <list>\nD. <dl>",
+    "answer": "B. <ul> - The <ul> (unordered list) element creates a bulleted list. <ol> creates an ordered (numbered) list, and <dl> creates a description list.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 179,
+    "question": "Purpose of <meta> tag?\nA. Displays metadata to users\nB. Provides metadata about HTML doc\nC. Creates animations\nD. Links JS files",
+    "answer": "B. Provides metadata about HTML doc - The <meta> tag provides metadata about the HTML document, such as character encoding, viewport settings, and page description for search engines.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 180,
+    "question": "HTML5 standalone content element:\nA. <div>\nB. <span>\nC. <article>\nD. <content>",
+    "answer": "C. <article> - The <article> element represents a standalone, self-contained piece of content. <div> and <span> are generic containers without semantic meaning.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 181,
+    "question": "Purpose of <form>?\nA. Create formatted text\nB. Collect user input\nC. Import HTML files\nD. Define footer",
+    "answer": "B. Collect user input - The <form> element is used to create an HTML form for collecting user input, which can be submitted to a server for processing.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 182,
+    "question": "Required <img> attribute:\nA. title\nB. src\nC. alt\nD. width",
+    "answer": "B. src - The src attribute is required and specifies the path to the image file. While alt is highly recommended for accessibility, src is the only required attribute.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 183,
+    "question": "Purpose of <!DOCTYPE>:\nA. Declares document as HTML\nB. Links to external doctype\nC. Tells browser what HTML version used\nD. Creates a variable",
+    "answer": "C. Tells browser what HTML version used - The <!DOCTYPE> declaration tells the browser which version of HTML the document is using, ensuring proper rendering.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 184,
+    "question": "CSS stands for:\nA. Computer Style Sheets\nB. Creative Style System\nC. Cascading Style Sheets\nD. Colorful Style Sheets",
+    "answer": "C. Cascading Style Sheets - CSS is used to style and layout web pages. The 'cascading' refers to how styles can inherit and override each other.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 185,
+    "question": "Property to change text color:\nA. color\nB. text-color\nC. font-color\nD. text-style",
+    "answer": "A. color - The 'color' property sets the foreground color (text color) of an element.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 186,
+    "question": "Select all <p> elements:\nA. #p\nB. .p\nC. p\nD. all(p)",
+    "answer": "C. p - To select all elements of a type, use the element name directly. #p selects an element with id='p', and .p selects elements with class='p'.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 187,
+    "question": "CSS Box Model describes:\nA. A design pattern\nB. Content, padding, border, margin\nC. 3D rendering\nD. Responsive framework",
+    "answer": "B. Content, padding, border, margin - The CSS Box Model describes how elements are rendered, consisting of content, padding (space inside), border, and margin (space outside).",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 188,
+    "question": "Property controlling spacing between elements:\nA. space\nB. margin\nC. padding\nD. gap",
+    "answer": "B. margin - Margin controls the space outside an element's border, creating spacing between elements. Padding controls space inside the border.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 189,
+    "question": "Purpose of media queries:\nA. Query DB for styles\nB. Apply styles for different screens\nC. Import styles\nD. Animate properties",
+    "answer": "B. Apply styles for different screens - Media queries allow you to apply CSS styles conditionally based on device characteristics like screen width, enabling responsive design.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 190,
+    "question": "Correct variable declaration:\nA. variable x = 5\nB. var x = 5\nC. let x = 5\nD. Both B and C",
+    "answer": "D. Both B and C - Both 'var' and 'let' are valid ways to declare variables in JavaScript. 'let' is preferred in modern JavaScript for block scoping.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 191,
+    "question": "typeof [] returns:\nA. \"array\"\nB. \"object\"\nC. \"list\"\nD. \"undefined\"",
+    "answer": "B. \"object\" - In JavaScript, arrays are a type of object, so typeof [] returns 'object'. Use Array.isArray() to check if something is specifically an array.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 192,
+    "question": "Add an element to end of array:\nA. arr.push(el)\nB. arr.add(el)\nC. arr.append(el)\nD. arr.insert(el)",
+    "answer": "A. arr.push(el) - The push() method adds one or more elements to the end of an array and returns the new length of the array.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 193,
+    "question": "Promise used for:\nA. Security\nB. Async operations\nC. Bug-free code\nD. Performance",
+    "answer": "B. Async operations - Promises are used to handle asynchronous operations in JavaScript, providing a cleaner way to work with async code than callbacks.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 194,
+    "question": "JSON.parse():\nA. Converts object to JSON string\nB. Parses JSON string → JS object\nC. Validates JSON\nD. Creates JSON file",
+    "answer": "B. Parses JSON string → JS object - JSON.parse() converts a JSON string into a JavaScript object. JSON.stringify() does the opposite (object to string).",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 195,
+    "question": "Purpose of TypeScript:\nA. Replace JS\nB. Add static typing\nC. Improve performance\nD. Simplify syntax",
+    "answer": "B. Add static typing - TypeScript is a superset of JavaScript that adds static type checking, helping catch errors during development and improving code quality.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 196,
+    "question": "Retrieve data:\nA. GET\nB. SELECT\nC. RETRIEVE\nD. FETCH",
+    "answer": "B. SELECT - The SELECT statement is used in SQL to retrieve data from a database table. GET is an HTTP method, not a SQL command.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 197,
+    "question": "Primary key:\nA. First column\nB. Unique identifier\nC. Most important table\nD. Foreign table ref",
+    "answer": "B. Unique identifier - A primary key is a column (or set of columns) that uniquely identifies each row in a table. It must be unique and cannot be null.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 198,
+    "question": "Clause to filter records:\nA. FILTER\nB. WHERE\nC. HAVING\nD. CONDITION",
+    "answer": "B. WHERE - The WHERE clause filters rows based on specified conditions. HAVING is similar but used with GROUP BY to filter grouped results.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 199,
+    "question": "JOIN is used to:\nA. Combine rows from two/more tables\nB. Join databases\nC. Combine columns\nD. Join SQL with other languages",
+    "answer": "A. Combine rows from two/more tables - JOIN operations combine rows from multiple tables based on a related column, allowing you to query data across tables.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 200,
+    "question": "Hatch is for:\nA. Frontend\nB. Python project management/packaging\nC. Migrations\nD. API testing",
+    "answer": "B. Python project management/packaging - Hatch is a modern Python project management tool that helps with packaging, dependency management, and project setup.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 201,
+    "question": "Command to init Hatch project:\nA. hatch new\nB. hatch init\nC. hatch create\nD. hatch start",
+    "answer": "A. hatch new - The 'hatch new' command creates a new Hatch project with the proper structure and configuration files.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 202,
+    "question": "FastAPI is built for:\nA. JS\nB. Python\nC. Java\nD. Ruby",
+    "answer": "B. Python - FastAPI is a modern, fast web framework for building APIs with Python, based on standard Python type hints.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 203,
+    "question": "Key FastAPI feature:\nA. Automatic API documentation\nB. Built-in ORM\nC. SSR\nD. Microservices orchestration",
+    "answer": "A. Automatic API documentation - FastAPI automatically generates interactive API documentation (Swagger UI) based on your code, making it easy to test and understand APIs.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 204,
+    "question": "FastAPI request validation:\nA. Manual\nB. Pydantic models\nC. External libs only\nD. Not supported",
+    "answer": "B. Pydantic models - FastAPI uses Pydantic models for automatic request validation, serialization, and documentation based on Python type hints.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 205,
+    "question": "Dependency injection used to:\nA. Reduce duplication\nB. Manage DB connections\nC. Share objects\nD. All of the above",
+    "answer": "D. All of the above - Dependency injection in FastAPI helps reduce code duplication, manage shared resources like database connections, and share objects across endpoints.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 206,
+    "question": "JSX is:\nA. DB query language\nB. JS extension with HTML-like syntax\nC. Styling framework\nD. Testing library",
+    "answer": "B. JS extension with HTML-like syntax - JSX (JavaScript XML) is a syntax extension that allows you to write HTML-like code in JavaScript, used primarily with React.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 207,
+    "question": "React component is:\nA. CSS file\nB. JS function/class returning UI\nC. HTML template\nD. Bundler config",
+    "answer": "B. JS function/class returning UI - A React component is a JavaScript function or class that returns JSX (UI elements), making it reusable and composable.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 208,
+    "question": "Hook for state:\nA. useStatus\nB. useState\nC. useMemory\nD. useData",
+    "answer": "B. useState - The useState hook is used to add state to functional components in React, allowing components to manage and update their own data.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 209,
+    "question": "useEffect used for:\nA. Animations\nB. Side effects\nC. Modify props\nD. Rendering performance",
+    "answer": "B. Side effects - The useEffect hook handles side effects in React components, such as data fetching, subscriptions, or manually changing the DOM.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 210,
+    "question": "Pass data parent → child:\nA. Global vars\nB. Props\nC. Context only\nD. Modify DOM",
+    "answer": "B. Props - Props (properties) are the primary way to pass data from parent components to child components in React.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 211,
+    "question": "Virtual DOM:\nA. Separate DOM for testing\nB. Lightweight DOM copy\nC. 3D DOM\nD. DOM alternative",
+    "answer": "B. Lightweight DOM copy - The Virtual DOM is a lightweight JavaScript representation of the real DOM that React uses to efficiently update the UI by comparing changes.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 212,
+    "question": "ShadCN is:\nA. CSS framework\nB. UI library for React\nC. Accessible customizable UI components\nD. Animation library",
+    "answer": "C. Accessible customizable UI components - ShadCN is a collection of accessible, customizable UI components built with React and Tailwind CSS that you can copy into your project.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 213,
+    "question": "How are ShadCN components installed?\nA. npm install\nB. CLI that copies components\nC. CDN\nD. Plugin system",
+    "answer": "B. CLI that copies components - ShadCN components are installed via CLI, which copies the component source code directly into your project, giving you full control to customize them.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 214,
+    "question": "ShadCN uses:\nA. CSS Modules\nB. Styled Components\nC. Tailwind CSS\nD. Emotion",
+    "answer": "C. Tailwind CSS - ShadCN components are built using Tailwind CSS for styling, providing utility-first CSS classes.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 215,
+    "question": "Next.js is:\nA. State library\nB. React framework with SSR\nC. CSS preprocessor\nD. Testing framework",
+    "answer": "B. React framework with SSR - Next.js is a React framework that provides server-side rendering (SSR), static site generation, and other features for building production-ready applications.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 216,
+    "question": "How to create a new page in App Router?\nA. New HTML file\nB. Add to routes.config.js\nC. Create page.js inside app/ subfolder\nD. Use createPage()",
+    "answer": "C. Create page.js inside app/ subfolder - In Next.js 13+ App Router, you create pages by adding a page.js (or page.tsx) file inside a folder within the app/ directory.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 217,
+    "question": "getServerSideProps:\nA. Client-side fetching\nB. Fetch at request time on server\nC. Define server routes\nD. Configure server",
+    "answer": "B. Fetch at request time on server - getServerSideProps is a Next.js function that runs on the server for each request, allowing you to fetch data before rendering the page.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 218,
+    "question": "Difference between pages/ and app/ in Next.js 13+:\nA. pages/ deprecated\nB. app/ uses App Router + RSC\nC. pages/ supports API routes; app/ doesn't\nD. No difference",
+    "answer": "B. app/ uses App Router + RSC - The app/ directory (App Router) is the new routing system in Next.js 13+ with React Server Components (RSC), while pages/ uses the Pages Router. Both are supported.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 219,
+    "question": "Docker is:\nA. Language\nB. Containerization platform\nC. DBMS\nD. Hosting service",
+    "answer": "B. Containerization platform - Docker is a platform that uses containerization to package applications and their dependencies into lightweight, portable containers.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 220,
+    "question": "Docker container:\nA. Physical storage\nB. Lightweight standalone executable package\nC. VM\nD. Build tool",
+    "answer": "B. Lightweight standalone executable package - A Docker container is a lightweight, standalone, executable package that includes everything needed to run an application.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 221,
+    "question": "File that defines Docker build:\nA. docker.json\nB. container.yaml\nC. Dockerfile\nD. docker-config.js",
+    "answer": "C. Dockerfile - The Dockerfile contains instructions for building a Docker image, specifying the base image, dependencies, and commands to run.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 222,
+    "question": "Command to run a container:\nA. docker start\nB. docker execute\nC. docker run\nD. docker container",
+    "answer": "C. docker run - The 'docker run' command creates and starts a new container from an image. 'docker start' starts an existing stopped container.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 223,
+    "question": "GitHub Actions used for:\nA. Debugging\nB. Automating workflows (CI/CD)\nC. Managing repos\nD. Documentation",
+    "answer": "B. Automating workflows (CI/CD) - GitHub Actions is a CI/CD platform that automates workflows like building, testing, and deploying code directly from GitHub repositories.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 224,
+    "question": "Where are workflow files stored?\nA. Root directory\nB. .github/workflows\nC. .actions\nD. .workflows",
+    "answer": "B. .github/workflows - GitHub Actions workflow files are stored in the .github/workflows directory and are written in YAML format.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 225,
+    "question": "What triggers a workflow?\nA. Manual only\nB. Commits only\nC. Pushes, PRs, schedules\nD. When issues are created",
+    "answer": "C. Pushes, PRs, schedules - GitHub Actions workflows can be triggered by various events including pushes, pull requests, scheduled times, manual triggers, and many other GitHub events.",
+    "category": "Tri practice test 1"
+  },
+  {
+    "id": 226,
+    "question": "What Git command shows commit history?\nA. git history\nB. git log\nC. git show --all\nD. git commits",
+    "answer": "B. git log - The 'git log' command displays the commit history, showing commits in reverse chronological order with their messages, authors, and dates.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 227,
+    "question": "Which command stages changes for a specific file?\nA. git add [filename]\nB. git stage [filename]\nC. git commit [filename]\nD. git update [filename]",
+    "answer": "A. git add [filename] - The 'git add' command stages changes, preparing them to be committed. You can stage specific files or use 'git add .' for all changes.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 228,
+    "question": "What is a Git branch?\nA. A separate version of code diverging from the main line\nB. A collection of repositories\nC. A type of remote repo\nD. A GitHub project management feature",
+    "answer": "A. A separate version of code diverging from the main line - A Git branch is a separate line of development that allows you to work on features or fixes independently from the main codebase.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 229,
+    "question": "TDD stands for:\nA. Technical Design Document\nB. Test-Driven Development\nC. Technical Debt Demolition\nD. Testing & Documentation Development",
+    "answer": "B. Test-Driven Development - TDD is a software development approach where you write tests before writing the code, following the Red-Green-Refactor cycle.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 230,
+    "question": "In project management, what is a sprint?\nA. A quick meeting\nB. A time-boxed work period\nC. A rapid coding session\nD. Task prioritization method",
+    "answer": "B. A time-boxed work period - A sprint is a fixed time period (usually 1-4 weeks) in Agile/Scrum methodology where a team works to complete a set of tasks.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 231,
+    "question": "SQL clause used to sort results:\nA. SORT BY\nB. ORDER BY\nC. ARRANGE BY\nD. GROUP BY",
+    "answer": "B. ORDER BY - The ORDER BY clause sorts the result set by one or more columns, either ascending (ASC) or descending (DESC).",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 232,
+    "question": "Purpose of SQL UPDATE:\nA. Create new tables\nB. Add new records\nC. Modify existing records\nD. Delete records",
+    "answer": "C. Modify existing records - The UPDATE statement modifies existing data in a table. Use INSERT to add new records and DELETE to remove records.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 233,
+    "question": "Primary purpose of an API:\nA. Create UI\nB. Define how software components interact\nC. Style web pages\nD. Secure apps",
+    "answer": "B. Define how software components interact - An API (Application Programming Interface) defines how different software components should interact and communicate with each other.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 234,
+    "question": "Which HTTP method is idempotent?\nA. POST\nB. GET\nC. PATCH\nD. DELETE",
+    "answer": "B. GET - GET is idempotent, meaning making the same request multiple times produces the same result. POST is not idempotent, and DELETE and PATCH can be idempotent depending on implementation.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 235,
+    "question": "Which is NOT a valid JSON type?\nA. string\nB. number\nC. function\nD. null",
+    "answer": "C. function - JSON supports string, number, boolean, null, object, and array types. Functions are not supported in JSON.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 236,
+    "question": "FastAPI primarily helps with:\nA. Frontend development\nB. Building high-performance APIs\nC. Database management\nD. Network security",
+    "answer": "B. Building high-performance APIs - FastAPI is a modern Python web framework designed for building fast, high-performance APIs with automatic documentation and validation.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 237,
+    "question": "Purpose of a code formatter:\nA. Identify vulnerabilities\nB. Apply consistent formatting\nC. Optimize performance\nD. Generate documentation",
+    "answer": "B. Apply consistent formatting - Code formatters automatically format code according to style guidelines, ensuring consistency across a codebase (e.g., Prettier, Black, autopep8).",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 238,
+    "question": "HTML element to create a hyperlink:\nA. <link>\nB. <a>\nC. <href>\nD. <hyperlink>",
+    "answer": "B. <a> - The <a> (anchor) element creates hyperlinks. The href attribute specifies the URL. <link> is used for linking external resources like CSS.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 239,
+    "question": "What does <canvas> allow?\nA. Responsive layouts\nB. Draw graphics via JS\nC. Display video\nD. Style forms",
+    "answer": "B. Draw graphics via JS - The <canvas> element provides a drawing surface that can be used with JavaScript to create graphics, animations, and visualizations.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 240,
+    "question": "HTML tag for a table row:\nA. <tr>\nB. <row>\nC. <td>\nD. <th>",
+    "answer": "A. <tr> - The <tr> element defines a table row. <td> defines table data cells, and <th> defines table header cells.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 241,
+    "question": "Purpose of <header>:\nA. Create a heading\nB. Define a header for a document/section\nC. Container for links only\nD. Style top of webpage",
+    "answer": "B. Define a header for a document/section - The <header> element represents introductory content or navigational aids for its nearest sectioning content.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 242,
+    "question": "Create a checkbox:\nA. <input type=\"check\">\nB. <input type=\"checkbox\">\nC. <checkbox>\nD. <input type=\"option\">",
+    "answer": "B. <input type=\"checkbox\"> - Checkboxes are created using the <input> element with type=\"checkbox\". This creates a checkbox that users can select or deselect.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 243,
+    "question": "Purpose of <script>:\nA. Define client-side scripts\nB. Scripted animations\nC. Script-based layout\nD. Import HTML files",
+    "answer": "A. Define client-side scripts - The <script> element is used to embed or reference JavaScript code that runs on the client side in the browser.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 244,
+    "question": "CSS property controlling space inside an element:\nA. margin\nB. padding\nC. border\nD. spacing",
+    "answer": "B. padding - Padding controls the space between an element's content and its border. Margin controls space outside the border.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 245,
+    "question": "Select element with class \"header\":\nA. #header\nB. .header\nC. @header\nD. header",
+    "answer": "B. .header - The dot (.) is used to select elements by class name. #header would select an element with id=\"header\".",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 246,
+    "question": "Purpose of Flexbox:\nA. Create flexible responsive layouts\nB. Animate elements\nC. Handle forms\nD. Connect databases",
+    "answer": "A. Create flexible responsive layouts - Flexbox (Flexible Box Layout) is a CSS layout model that makes it easy to create flexible, responsive layouts that adapt to different screen sizes.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 247,
+    "question": "Property that changes font:\nA. font-type\nB. font-style\nC. font-family\nD. text-font",
+    "answer": "C. font-family - The font-family property specifies the font (typeface) for text. font-style controls italic/oblique, not the font itself.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 248,
+    "question": "Make text bold:\nA. font-weight: bold;\nB. text-style: bold;\nC. font: bold;\nD. text-weight: bold;",
+    "answer": "A. font-weight: bold; - The font-weight property with value 'bold' makes text bold. You can also use numeric values like 700.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 249,
+    "question": "What does z-index control?\nA. Transparency\nB. Width on z-axis\nC. Stacking order\nD. Zoom level",
+    "answer": "C. Stacking order - The z-index property controls the stacking order of positioned elements. Higher values appear in front of lower values.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 250,
+    "question": "Correct way to write array:\nA. var colors = \"red\",\"green\"\nB. var colors = (1:\"red\")\nC. var colors = [\"red\",\"green\",\"blue\"]\nD. var colors = {red, green}",
+    "answer": "C. var colors = [\"red\",\"green\",\"blue\"] - Arrays in JavaScript are created using square brackets [] with elements separated by commas.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 251,
+    "question": "Correct conditional:\nA. if i = 5 then\nB. if i == 5 then\nC. if (i == 5)\nD. if i = 5",
+    "answer": "C. if (i == 5) - JavaScript if statements use parentheses around the condition. == is used for comparison, = is for assignment.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 252,
+    "question": "Correct function syntax:\nA. function = myFunction()\nB. function myFunction()\nC. function\n()\nD. def myFunction()",
+    "answer": "B. function myFunction() - Functions in JavaScript are declared using the function keyword followed by the function name and parentheses. 'def' is Python syntax.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 253,
+    "question": "What does \"5\" + 2 return?\nA. 7\nB. \"52\"\nC. 52\nD. Error",
+    "answer": "B. \"52\" - JavaScript performs type coercion. When adding a string and a number, the number is converted to a string, resulting in string concatenation.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 254,
+    "question": "map() does what?\nA. Creates new array by applying function\nB. Modifies original array\nC. Filters elements\nD. Combines arrays",
+    "answer": "A. Creates new array by applying function - The map() method creates a new array by calling a function on every element of the original array. It doesn't modify the original array.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 255,
+    "question": "TypeScript interface:\nA. UI component\nB. Defines shape of an object\nC. Connects languages\nD. API interface",
+    "answer": "B. Defines shape of an object - TypeScript interfaces define the structure and types of properties that an object must have, providing type checking and IntelliSense support.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 256,
+    "question": "Delete data:\nA. REMOVE\nB. DELETE\nC. CLEAR\nD. DROP",
+    "answer": "B. DELETE - The DELETE statement removes rows from a table. DROP removes entire tables or databases, while DELETE removes specific records.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 257,
+    "question": "Foreign key:\nA. Must be unique\nB. Connects to primary key in another table\nC. Security feature\nD. Encryption key",
+    "answer": "B. Connects to primary key in another table - A foreign key is a column that references the primary key of another table, establishing a relationship between tables.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 258,
+    "question": "Select distinct values:\nA. SELECT UNIQUE\nB. SELECT DIFFERENT\nC. SELECT DISTINCT\nD. SELECT SEPARATE",
+    "answer": "C. SELECT DISTINCT - The DISTINCT keyword eliminates duplicate rows from the result set, returning only unique values.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 259,
+    "question": "INNER JOIN returns:\nA. Records with matching values\nB. All records from left + matching right\nC. All from both tables\nD. First table only",
+    "answer": "A. Records with matching values - INNER JOIN returns only rows where there is a match in both tables. LEFT JOIN returns all rows from the left table plus matching rows from the right.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 260,
+    "question": "Hatch provides:\nA. Version control\nB. Environment management\nC. Dependency tracking\nD. Testing environment",
+    "answer": "B. Environment management - Hatch provides environment management, allowing you to create isolated Python environments with specific versions and dependencies.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 261,
+    "question": "How Hatch handles Python versions:\nA. It doesn't\nB. Installs versions automatically\nC. Creates isolated environments with specific versions\nD. Modifies system Python",
+    "answer": "C. Creates isolated environments with specific versions - Hatch can create isolated environments with specific Python versions, similar to virtualenv but with better project management features.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 262,
+    "question": "Key advantage of FastAPI:\nA. Only framework that works with Python\nB. Superior performance + automatic validation\nC. Only REST framework\nD. Built-in DB",
+    "answer": "B. Superior performance + automatic validation - FastAPI offers high performance (comparable to Node.js and Go) and automatic request/response validation using Pydantic models.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 263,
+    "question": "How FastAPI generates docs:\nA. Manually\nB. Doesn't generate\nC. Automatically via type hints\nD. External tools",
+    "answer": "C. Automatically via type hints - FastAPI automatically generates interactive API documentation (Swagger UI and ReDoc) based on Python type hints and Pydantic models.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 264,
+    "question": "Path parameter is:\nA. Folder path config\nB. Variable part of URL\nC. Request body param\nD. Query param",
+    "answer": "B. Variable part of URL - Path parameters are variables defined in the URL path (e.g., /users/{user_id}) that are extracted and passed to the route handler function.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 265,
+    "question": "Purpose of a FastAPI dependency:\nA. Install packages\nB. Share logic across app\nC. External service connection\nD. Handle version deps",
+    "answer": "B. Share logic across app - FastAPI dependencies allow you to share common logic (like database connections, authentication) across multiple endpoints, reducing code duplication.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 266,
+    "question": "Main building block of React:\nA. Modules\nB. Components\nC. Functions\nD. Classes",
+    "answer": "B. Components - Components are the main building blocks of React applications. They are reusable pieces of UI that can be composed together to build complex interfaces.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 267,
+    "question": "Purpose of props:\nA. Store local state\nB. Pass data parent → child\nC. Handle HTTP\nD. Styling",
+    "answer": "B. Pass data parent → child - Props (properties) are the mechanism for passing data from parent components to child components in React.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 268,
+    "question": "Update state in functional component:\nA. this.setState()\nB. Setter from useState()\nC. state.update()\nD. Modify directly",
+    "answer": "B. Setter from useState() - In functional components, useState returns [value, setter]. You call the setter function to update state. Never modify state directly.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 269,
+    "question": "Purpose of React Context:\nA. Style components\nB. Handle forms\nC. Pass data without props\nD. Create reusable components",
+    "answer": "C. Pass data without props - React Context allows you to share data across the component tree without passing props down through every level (prop drilling).",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 270,
+    "question": "useRef used for:\nA. Trigger re-renders\nB. Mutable variable without re-renders\nC. External libraries\nD. API fetch",
+    "answer": "B. Mutable variable without re-renders - useRef returns a mutable ref object that persists across renders. Changing .current doesn't trigger a re-render, useful for DOM references or storing mutable values.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 271,
+    "question": "Role of key prop:\nA. Required for all props\nB. Helps React track changed/added/removed items\nC. Defines order of elements\nD. Sets CSS",
+    "answer": "B. Helps React track changed/added/removed items - The key prop helps React identify which items have changed, been added, or removed, enabling efficient updates to the Virtual DOM.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 272,
+    "question": "What makes ShadCN different?\nA. Only works with React\nB. Components are copied into your project\nC. Supports SSR only\nD. Paid license",
+    "answer": "B. Components are copied into your project - Unlike npm packages, ShadCN components are copied directly into your codebase, giving you full ownership and customization control.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 273,
+    "question": "How does ShadCN handle theming?\nA. Inline styles\nB. CSS variables in global file\nC. No theming\nD. JavaScript objects",
+    "answer": "B. CSS variables in global file - ShadCN uses CSS variables defined in a global CSS file (like globals.css) for theming, making it easy to customize colors and styles.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 274,
+    "question": "ShadCN builds on which UI primitive library?\nA. Material UI\nB. Bootstrap\nC. Radix UI\nD. Ant Design",
+    "answer": "C. Radix UI - ShadCN components are built on top of Radix UI primitives, which provide accessible, unstyled components that ShadCN then styles with Tailwind CSS.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 275,
+    "question": "Next.js used for:\nA. Mobile apps\nB. React apps with server-side capabilities\nC. DB management\nD. Design systems",
+    "answer": "B. React apps with server-side capabilities - Next.js extends React with server-side rendering, static site generation, API routes, and other production-ready features.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 276,
+    "question": "Server-side rendering (SSR):\nA. Client-only rendering\nB. Server generates HTML per request\nC. Using a rendering server\nD. Pre-render at build time",
+    "answer": "B. Server generates HTML per request - SSR means the server generates HTML for each request, which is then sent to the client. This improves SEO and initial load time.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 277,
+    "question": "Purpose of Next.js Image component:\nA. Display images unoptimized\nB. Automatically optimize + size images\nC. Create galleries\nD. Edit images",
+    "answer": "B. Automatically optimize + size images - Next.js Image component automatically optimizes images (format, size, lazy loading) to improve performance and reduce bandwidth usage.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 278,
+    "question": "Create new Next.js project:\nA. npm init next-app\nB. npx create-next-app\nC. npm install next-app\nD. npx next create",
+    "answer": "B. npx create-next-app - The standard command to create a new Next.js project is 'npx create-next-app [project-name]', which sets up a new Next.js application with all necessary files.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 279,
+    "question": "Purpose of Docker volumes:\nA. Store images\nB. Persistent storage\nC. Network between containers\nD. Optimize performance",
+    "answer": "B. Persistent storage - Docker volumes provide persistent storage that survives container deletion, allowing data to persist beyond the container's lifecycle.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 280,
+    "question": "List running containers:\nA. docker list\nB. docker ps\nC. docker containers\nD. docker show",
+    "answer": "B. docker ps - The 'docker ps' command lists running containers. Use 'docker ps -a' to see all containers including stopped ones.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 281,
+    "question": "Docker Compose used for:\nA. Writing Dockerfiles\nB. Building images\nC. Multi-container apps\nD. Managing networks",
+    "answer": "C. Multi-container apps - Docker Compose is a tool for defining and running multi-container Docker applications using a YAML file to configure services.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 282,
+    "question": "Dockerfile instruction for base image:\nA. BASE\nB. FROM\nC. IMAGE\nD. USING",
+    "answer": "B. FROM - The FROM instruction specifies the base image to use for the Docker build. It must be the first instruction in a Dockerfile.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 283,
+    "question": "Workflow files are written in:\nA. JSON\nB. YAML\nC. XML\nD. JavaScript",
+    "answer": "B. YAML - GitHub Actions workflow files are written in YAML (YAML Ain't Markup Language) format and stored in .github/workflows/.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 284,
+    "question": "What is a GitHub Actions artifact?\nA. File created by workflow\nB. Repo type\nC. Runner\nD. Workflow template",
+    "answer": "A. File created by workflow - Artifacts are files created by a workflow that can be stored and downloaded, such as build outputs, test results, or logs.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 285,
+    "question": "How to reference environment variables?\nA. $VAR_NAME\nB. %VAR_NAME%\nC. ${VAR_NAME}\nD. ${{ env.VAR_NAME }}",
+    "answer": "D. ${{ env.VAR_NAME }} - In GitHub Actions, environment variables are referenced using the expression syntax ${{ env.VAR_NAME }} or ${{ secrets.VAR_NAME }} for secrets.",
+    "category": "Tri practice test 2"
+  },
+  {
+    "id": 286,
+    "question": "What is a Git repository?\nA. A folder containing all project files and revision history\nB. A backup system for code\nC. A collaborative coding platform\nD. A version of the code on a remote server",
+    "answer": "A. A folder containing all project files and revision history - A Git repository is a directory that contains your project files and the entire history of changes tracked by Git.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 287,
+    "question": "What does git pull do?\nA. Upload local commits to a remote repository\nB. Download and integrate changes from a remote repository\nC. Compare differences between repositories\nD. Create a new branch from the remote repository",
+    "answer": "B. Download and integrate changes from a remote repository - 'git pull' fetches changes from a remote repository and merges them into your current branch.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 288,
+    "question": "What is a pull request in GitHub?\nA. A way to fetch changes\nB. A request to pull data from an API\nC. A way to propose changes and request review/merge\nD. A method to download a repository",
+    "answer": "C. A way to propose changes and request review/merge - A pull request (PR) allows you to propose changes to a repository and request that they be reviewed and merged into the main branch.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 289,
+    "question": "Key principle of Test-Driven Development:\nA. Write documentation before code\nB. Write tests after code\nC. Write tests before implementing code\nD. Test after entire application is complete",
+    "answer": "C. Write tests before implementing code - TDD follows the Red-Green-Refactor cycle: write failing tests first, then write code to make them pass, then refactor.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 290,
+    "question": "Test that focuses on individual functions/components:\nA. Integration tests\nB. Unit tests\nC. End-to-end tests\nD. System tests",
+    "answer": "B. Unit tests - Unit tests verify that individual functions, methods, or components work correctly in isolation from other parts of the system.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 291,
+    "question": "SQL command to create a new table:\nA. ADD TABLE\nB. CREATE TABLE\nC. INSERT TABLE\nD. NEW TABLE",
+    "answer": "B. CREATE TABLE - The CREATE TABLE statement defines a new table with its columns, data types, and constraints.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 292,
+    "question": "SQL COUNT() does what?\nA. Counts rows matching a condition\nB. Sums numeric values\nC. Averages column values\nD. Counts number of columns",
+    "answer": "A. Counts rows matching a condition - COUNT() is an aggregate function that returns the number of rows that match a specified condition.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 293,
+    "question": "HTTP status indicating a client error:\nA. 200\nB. 301\nC. 404\nD. 500",
+    "answer": "C. 404 - HTTP status codes in the 4xx range indicate client errors. 404 means Not Found. 200 is success, 301 is redirect, and 500 is a server error.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 294,
+    "question": "Architectural style for networked applications:\nA. OOP\nB. MVC\nC. REST\nD. Microservices",
+    "answer": "C. REST - REST (Representational State Transfer) is an architectural style for designing networked applications, commonly used for web APIs.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 295,
+    "question": "JSON stands for:\nA. JavaScript Object Notation\nB. Java Standard Object Notation\nC. JavaScript Oriented Networking\nD. Java Source Object Notation",
+    "answer": "A. JavaScript Object Notation - JSON is a lightweight data interchange format that is easy for humans to read and write, and easy for machines to parse and generate.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 296,
+    "question": "Purpose of Hatch:\nA. Frontend build system\nB. Python project management\nC. JS linting\nD. Database migration",
+    "answer": "B. Python project management - Hatch is a modern Python project management tool that helps with packaging, dependency management, and project setup.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 297,
+    "question": "Pre-commit tool is used for:\nA. Auto-committing code\nB. Running checks before committing\nC. Generating commit messages\nD. Scheduling commits",
+    "answer": "B. Running checks before committing - Pre-commit hooks run automated checks (like linting, formatting, tests) before a commit is finalized, helping maintain code quality.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 298,
+    "question": "HTML tag for an image:\nA. <img>\nB. <picture>\nC. <image>\nD. <figure>",
+    "answer": "A. <img> - The <img> element embeds an image in an HTML document. <picture> is used for responsive images, and <figure> is a semantic container.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 299,
+    "question": "Attribute for image alternate text:\nA. src\nB. alt\nC. title\nD. desc",
+    "answer": "B. alt - The alt attribute provides alternative text for images, used by screen readers and displayed when the image cannot be loaded.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 300,
+    "question": "Purpose of <section>:\nA. Navigation links\nB. Define a section in a document\nC. Section of form elements\nD. CSS-styled section",
+    "answer": "B. Define a section in a document - The <section> element represents a standalone section of content, typically with a heading, that groups related content together.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 301,
+    "question": "Numbered list tag:\nA. <nl>\nB. <list type=\"numbered\">\nC. <ol>\nD. <ul>",
+    "answer": "C. <ol> - The <ol> (ordered list) element creates a numbered list. <ul> creates an unordered (bulleted) list.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 302,
+    "question": "What does <iframe> do?\nA. Embed another document inline\nB. Display images\nC. Floating frame\nD. Framed page section",
+    "answer": "A. Embed another document inline - The <iframe> (inline frame) element embeds another HTML page within the current page.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 303,
+    "question": "HTML tag used to create a form:\nA. <input>\nB. <form>\nC. <fieldset>\nD. <formfield>",
+    "answer": "B. <form> - The <form> element creates an HTML form for collecting user input. <input> elements go inside the form.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 304,
+    "question": "Background color for all <h1>:\nA. h1.all {…}\nB. h1 {…}\nC. all.h1 {…}\nD. .h1 {…}",
+    "answer": "B. h1 {…} - To style all elements of a type, use the element selector directly. h1 selects all <h1> elements.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 305,
+    "question": "CSS property for text size:\nA. text-size\nB. font-size\nC. text-style\nD. font-style",
+    "answer": "B. font-size - The font-size property controls the size of text. font-style controls italic/oblique, not size.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 306,
+    "question": "Purpose of CSS Grid:\nA. One-dimensional layouts\nB. Two-dimensional grid layouts\nC. Add grid lines\nD. Grid animations",
+    "answer": "B. Two-dimensional grid layouts - CSS Grid is a layout system that allows you to create two-dimensional layouts (rows and columns) for complex page structures.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 307,
+    "question": "Center element horizontally:\nA. margin: center;\nB. margin: auto 0;\nC. margin: 0 auto;\nD. align: center;",
+    "answer": "C. margin: 0 auto; - Setting left and right margins to 'auto' centers a block-level element horizontally. The syntax is margin: 0 auto; (top/bottom, left/right).",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 308,
+    "question": "Property for spacing between text lines:\nA. line-spacing\nB. text-spacing\nC. line-height\nD. text-height",
+    "answer": "C. line-height - The line-height property controls the vertical spacing between lines of text, affecting readability.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 309,
+    "question": "CSS preprocessor:\nA. Processes CSS after\nB. Processes CSS before browser\nC. Browser extension\nD. Optimization technique",
+    "answer": "B. Processes CSS before browser - CSS preprocessors (like Sass, Less) extend CSS with variables, nesting, and functions, then compile to standard CSS that browsers can understand.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 310,
+    "question": "Declare a constant:\nA. var NAME = value\nB. constant NAME = value\nC. let NAME = value\nD. const NAME = value",
+    "answer": "D. const NAME = value - The const keyword declares a constant that cannot be reassigned. let declares a variable that can be reassigned.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 311,
+    "question": "Check if x equals 5 (strict):\nA. if (x = 5)\nB. if (x == 5)\nC. if (x === 5)\nD. if (x equals 5)",
+    "answer": "C. if (x === 5) - The === operator performs strict equality comparison, checking both value and type. == performs type coercion.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 312,
+    "question": "typeof(undefined) returns:\nA. \"object\"\nB. \"undefined\"\nC. \"null\"\nD. Error",
+    "answer": "B. \"undefined\" - The typeof operator returns the type of a value. typeof(undefined) returns the string \"undefined\".",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 313,
+    "question": "A closure is:\nA. Method to close browser windows\nB. Function bundled with its surrounding state\nC. Ends JavaScript execution\nD. Security feature",
+    "answer": "B. Function bundled with its surrounding state - A closure is a function that has access to variables in its outer (enclosing) lexical scope, even after the outer function has returned.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 314,
+    "question": "How to handle errors:\nA. try/catch\nB. error/handle\nC. check/error\nD. try/error",
+    "answer": "A. try/catch - The try/catch statement allows you to handle errors gracefully. Code in the try block is executed, and if an error occurs, the catch block handles it.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 315,
+    "question": "Difference between JS & TS:\nA. TS supports classes\nB. TS has static typing, JS dynamic\nC. TS runs in browser\nD. TS supports modules, JS doesn't",
+    "answer": "B. TS has static typing, JS dynamic - TypeScript adds static type checking to JavaScript. JavaScript is dynamically typed (types checked at runtime), while TypeScript checks types at compile time.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 316,
+    "question": "Extract data:\nA. EXTRACT\nB. SELECT\nC. GET\nD. OPEN",
+    "answer": "B. SELECT - The SELECT statement retrieves data from database tables. It's the primary SQL command for querying data.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 317,
+    "question": "Filter SQL results:\nA. FILTER BY\nB. WHERE\nC. HAVING\nD. CONDITION BY",
+    "answer": "B. WHERE - The WHERE clause filters rows based on specified conditions. HAVING is similar but used with GROUP BY to filter grouped results.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 318,
+    "question": "GROUP BY:\nA. Groups results by column\nB. Filters grouped results\nC. Orders results\nD. Joins tables",
+    "answer": "A. Groups results by column - GROUP BY groups rows that have the same values in specified columns, often used with aggregate functions like COUNT, SUM, AVG.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 319,
+    "question": "SQL injection:\nA. Inserting malicious SQL\nB. Forcing DB to add records\nC. Adding unauthorized tables\nD. Overloading DB",
+    "answer": "A. Inserting malicious SQL - SQL injection is a security vulnerability where attackers insert malicious SQL code into input fields, potentially gaining unauthorized database access.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 320,
+    "question": "Hatch helps with:\nA. Frontend building\nB. Package creation & publication\nC. Cloud deployment\nD. ML model training",
+    "answer": "B. Package creation & publication - Hatch helps with creating Python packages, managing dependencies, and publishing packages to PyPI.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 321,
+    "question": "Hatch can manage:\nA. Git repositories\nB. Development environments\nC. Authentication\nD. DB servers",
+    "answer": "B. Development environments - Hatch can create and manage isolated Python development environments with specific versions and dependencies.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 322,
+    "question": "What makes FastAPI fast?\nA. Uses C++\nB. Based on Starlette & Pydantic\nC. Only simple types\nD. Limits users",
+    "answer": "B. Based on Starlette & Pydantic - FastAPI is built on Starlette (async framework) and Pydantic (data validation), which contribute to its high performance.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 323,
+    "question": "Key FastAPI feature:\nA. Built-in templates\nB. Automatic interactive API docs\nC. Payment processing\nD. Required DB connection",
+    "answer": "B. Automatic interactive API docs - FastAPI automatically generates interactive API documentation (Swagger UI and ReDoc) based on your code and type hints.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 324,
+    "question": "Request validation in FastAPI:\nA. Manual\nB. Pydantic models + type hints\nC. Regex only\nD. No validation",
+    "answer": "B. Pydantic models + type hints - FastAPI uses Pydantic models and Python type hints to automatically validate request data, providing type safety and clear error messages.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 325,
+    "question": "Purpose of @app.get():\nA. Define getter\nB. Define GET route\nC. Query DB\nD. Get configuration",
+    "answer": "B. Define GET route - The @app.get() decorator defines a GET endpoint in FastAPI. Similar decorators exist for POST, PUT, DELETE, etc.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 326,
+    "question": "Virtual DOM:\nA. Physical DOM\nB. Lightweight copy of DOM for performance\nC. VR DOM\nD. DOM from virtual components",
+    "answer": "B. Lightweight copy of DOM for performance - The Virtual DOM is a JavaScript representation of the real DOM that React uses to efficiently update the UI by comparing changes.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 327,
+    "question": "Create React functional component:\nA. Extend React.Component\nB. Function returning JSX\nC. createReactFunction()\nD. Instance of React.Function",
+    "answer": "B. Function returning JSX - Functional components are simply JavaScript functions that return JSX (React elements).",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 328,
+    "question": "Purpose of useState:\nA. Static variables\nB. Manage component state\nC. Check if component used\nD. Detect user activity",
+    "answer": "B. Manage component state - The useState hook allows functional components to manage state, returning [value, setter] to read and update state.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 329,
+    "question": "useEffect with empty deps:\nA. Runs every render\nB. Runs when specific state changes\nC. Runs once after initial render\nD. Never runs",
+    "answer": "C. Runs once after initial render - useEffect with an empty dependency array [] runs only once after the component mounts (initial render).",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 330,
+    "question": "React Fragment:\nA. Split component files\nB. Group children without extra DOM nodes\nC. Cache fragments\nD. Create partial components",
+    "answer": "B. Group children without extra DOM nodes - React Fragments (<></> or <React.Fragment>) allow you to group multiple elements without adding an extra DOM node.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 331,
+    "question": "Handle form input in React:\nA. Built-in Form component\nB. Access DOM directly\nC. Store input in state\nD. React doesn't support forms",
+    "answer": "C. Store input in state - In React, form inputs are typically controlled components where the input value is stored in state and updated via onChange handlers.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 332,
+    "question": "Primary design goal of ShadCN:\nA. Maximum components\nB. Accessible components with full code control\nC. Smallest bundle\nD. No CSS needed",
+    "answer": "B. Accessible components with full code control - ShadCN focuses on providing accessible, customizable components that you copy into your project, giving you full ownership and control.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 333,
+    "question": "Install button from ShadCN:\nA. npm install @shadcn/button\nB. npx shadcn-ui add button\nC. npx install shadcn-button\nD. npm add @ui/shadcn-button",
+    "answer": "B. npx shadcn-ui add button - ShadCN components are installed using the CLI command 'npx shadcn-ui add [component-name]', which copies the component code into your project.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 334,
+    "question": "ShadCN built with:\nA. Vanilla CSS\nB. Tailwind CSS\nC. Styled Components\nD. CSS Modules",
+    "answer": "B. Tailwind CSS - ShadCN components are built using Tailwind CSS for styling, providing utility-first CSS classes.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 335,
+    "question": "App Router in Next.js:\nA. Third-party package\nB. New routing system in Next 13\nC. Navigation component\nD. Route transition tool",
+    "answer": "B. New routing system in Next 13 - The App Router is the new routing system introduced in Next.js 13, using the app/ directory and React Server Components.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 336,
+    "question": "Create API route (App Router):\nA. pages/api\nB. app/api + route.js\nC. createApiRoute()\nD. next.config.js",
+    "answer": "B. app/api + route.js - In the App Router, API routes are created by adding a route.js (or route.ts) file inside a folder in the app/ directory (e.g., app/api/route.js).",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 337,
+    "question": "Server Component:\nA. Runs on dedicated server\nB. Rendered on server, no client JS\nC. Manages server connections\nD. Backend service",
+    "answer": "B. Rendered on server, no client JS - Server Components in Next.js are rendered on the server and don't send JavaScript to the client, improving performance and reducing bundle size.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 338,
+    "question": "Fetch data in Server Components:\nA. useEffect\nB. useState\nC. async/await or fetch\nD. getServerSideProps only",
+    "answer": "C. async/await or fetch - Server Components can be async functions and use async/await or fetch directly, since they run on the server. useEffect and useState are client-side hooks.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 339,
+    "question": "Dockerfile:\nA. Stores images\nB. Text file for building images\nC. GUI tool\nD. Docker DB",
+    "answer": "B. Text file for building images - A Dockerfile is a text file containing instructions for building a Docker image, specifying the base image, dependencies, and commands.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 340,
+    "question": "Build Docker image:\nA. docker create\nB. docker build\nC. docker compile\nD. docker make",
+    "answer": "B. docker build - The 'docker build' command builds a Docker image from a Dockerfile. The syntax is 'docker build -t [image-name] [path]'.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 341,
+    "question": "Docker Hub:\nA. Local environment\nB. Registry for Docker images\nC. Network manager\nD. Container orchestrator",
+    "answer": "B. Registry for Docker images - Docker Hub is a cloud-based registry service where you can find, share, and store Docker images.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 342,
+    "question": "How containers differ from VMs:\nA. More lightweight, share host OS kernel\nB. Require more resources\nC. Run apps only, not systems\nD. No difference",
+    "answer": "A. More lightweight, share host OS kernel - Containers are more lightweight than VMs because they share the host OS kernel, while VMs require a full OS for each instance.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 343,
+    "question": "Purpose of GitHub Actions:\nA. Review PRs\nB. Automate workflows like CI/CD\nC. Host websites\nD. Manage repos",
+    "answer": "B. Automate workflows like CI/CD - GitHub Actions automates software workflows, including CI/CD pipelines, testing, building, and deployment.",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 344,
+    "question": "Specify when workflow runs:\nA. schedule\nB. when\nC. on\nD. trigger",
+    "answer": "C. on - The 'on' key in a GitHub Actions workflow file specifies the events that trigger the workflow (e.g., push, pull_request, schedule).",
+    "category": "Tri practice test 3"
+  },
+  {
+    "id": 345,
+    "question": "GitHub Actions runners are:\nA. Scripts\nB. Servers that execute job workflows\nC. Special GitHub accounts\nD. Container images",
+    "answer": "B. Servers that execute job workflows - Runners are servers that execute the jobs in a GitHub Actions workflow. GitHub provides hosted runners, or you can use self-hosted runners.",
+    "category": "Tri practice test 3"
+  }
+]
